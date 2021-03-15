@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/Admin/Desktop/EECS497/MedMinder/DerivedData/MedMinder/Build/Intermediates.noindex/IBDesignables/Products/Debug-iphonesimulator/CocoaTextField/CocoaTextField.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/Admin/Desktop/EECS497/MedMinder/DerivedData/MedMinder/Build/Intermediates.noindex/IBDesignables/Intermediates.noindex/Pods.build/Debug-iphonesimulator/CocoaTextField.build/unextended-module.modulemap",
+    }]
+  }]
+}

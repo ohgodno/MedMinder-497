@@ -1,0 +1,328 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FloatingLabelTextFieldNotifier"
+provides-nominal:
+- "29FloatingLabelTextFieldSwiftUI0abcD8NotifierC"
+provides-member:
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", ""]
+provides-dynamic-lookup:
+- "$arrTextFieldEditActions"
+- "$arrValidator"
+- "$errorColor"
+- "$font"
+- "$isRequiredField"
+- "$isSecureTextEntry"
+- "$isShowError"
+- "$leftView"
+- "$lineColor"
+- "$lineHeight"
+- "$placeholderColor"
+- "$placeholderFont"
+- "$requiredFieldMessage"
+- "$rightView"
+- "$selectedLineColor"
+- "$selectedLineHeight"
+- "$selectedTextColor"
+- "$selectedTitleColor"
+- "$spaceBetweenTitleText"
+- "$textAlignment"
+- "$textColor"
+- "$titleColor"
+- "$titleFont"
+- "_arrTextFieldEditActions"
+- "_arrValidator"
+- "_errorColor"
+- "_font"
+- "_isRequiredField"
+- "_isSecureTextEntry"
+- "_isShowError"
+- "_leftView"
+- "_lineColor"
+- "_lineHeight"
+- "_placeholderColor"
+- "_placeholderFont"
+- "_requiredFieldMessage"
+- "_rightView"
+- "_selectedLineColor"
+- "_selectedLineHeight"
+- "_selectedTextColor"
+- "_selectedTitleColor"
+- "_spaceBetweenTitleText"
+- "_textAlignment"
+- "_textColor"
+- "_titleColor"
+- "_titleFont"
+- "arrTextFieldEditActions"
+- "arrValidator"
+- "errorColor"
+- "font"
+- "isRequiredField"
+- "isSecureTextEntry"
+- "isShowError"
+- "leftView"
+- "lineColor"
+- "lineHeight"
+- "placeholderColor"
+- "placeholderFont"
+- "requiredFieldMessage"
+- "rightView"
+- "selectedLineColor"
+- "selectedLineHeight"
+- "selectedTextColor"
+- "selectedTitleColor"
+- "spaceBetweenTitleText"
+- "textAlignment"
+- "textColor"
+- "titleColor"
+- "titleFont"
+depends-top-level:
+- "AnyView"
+- "Bool"
+- "BooleanLiteralType"
+- "CGFloat"
+- "Color"
+- "Double"
+- "FloatLiteralType"
+- "FloatingLabelTextFieldNotifier"
+- "Font"
+- "IntegerLiteralType"
+- "ObservableObject"
+- "Published"
+- "String"
+- "StringLiteralType"
+- "TextAlignment"
+- "TextFieldEditActions"
+- "TextFieldValidator"
+depends-member:
+- ["s12CaseIterableP", "leading"]
+- ["7SwiftUI5ColorV", "black"]
+- ["7SwiftUI5ColorV", "blue"]
+- ["7SwiftUI5ColorV", "gray"]
+- ["7SwiftUI5ColorV", "red"]
+- ["s23CustomStringConvertibleP", "black"]
+- ["s23CustomStringConvertibleP", "blue"]
+- ["s23CustomStringConvertibleP", "gray"]
+- ["s23CustomStringConvertibleP", "red"]
+- ["SQ", ""]
+- ["SQ", "black"]
+- ["SQ", "blue"]
+- ["SQ", "gray"]
+- ["SQ", "leading"]
+- ["SQ", "red"]
+- ["SQ", "system"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$arrTextFieldEditActions"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$arrValidator"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$errorColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$font"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$isRequiredField"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$isSecureTextEntry"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$isShowError"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$leftView"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$lineColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$lineHeight"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$placeholderColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$placeholderFont"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$requiredFieldMessage"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$rightView"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$selectedLineColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$selectedLineHeight"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$selectedTextColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$selectedTitleColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$spaceBetweenTitleText"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$textAlignment"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$textColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$titleColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "$titleFont"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "AnyView"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "Bool"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "CGFloat"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "Color"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "Default_ObjectWillChangePublisher"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "Double"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "Font"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "ObjectWillChangePublisher"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "Published"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "String"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "TextAlignment"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "TextFieldEditActions"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "TextFieldValidator"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", ""]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_Default_ObjectWillChangePublisher"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_arrTextFieldEditActions"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_arrValidator"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_errorColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_font"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_isRequiredField"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_isSecureTextEntry"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_isShowError"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_leftView"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_lineColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_lineHeight"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_placeholderColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_placeholderFont"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_requiredFieldMessage"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_rightView"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_selectedLineColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_selectedLineHeight"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_selectedTextColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_selectedTitleColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_spaceBetweenTitleText"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_textAlignment"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_textColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_titleColor"]
+- !private ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "_titleFont"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "arrTextFieldEditActions"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "arrValidator"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "deinit"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "errorColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "font"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "init"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "isRequiredField"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "isSecureTextEntry"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "isShowError"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "leftView"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "lineColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "lineHeight"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "objectWillChange"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "placeholderColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "placeholderFont"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "requiredFieldMessage"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "rightView"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "selectedLineColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "selectedLineHeight"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "selectedTextColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "selectedTitleColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "spaceBetweenTitleText"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "textAlignment"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "textColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "titleColor"]
+- ["29FloatingLabelTextFieldSwiftUI0abcD8NotifierC", "titleFont"]
+- ["7SwiftUI4FontV", "system"]
+- ["SH", "black"]
+- ["SH", "blue"]
+- ["SH", "gray"]
+- ["SH", "leading"]
+- ["SH", "red"]
+- ["SH", "system"]
+- ["7Combine16ObservableObjectP", "Default_ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Failure"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Published"]
+- ["7Combine16ObservableObjectP", ""]
+- ["7Combine16ObservableObjectP", "_Default_ObjectWillChangePublisher"]
+- !private ["7Combine16ObservableObjectP", "_arrTextFieldEditActions"]
+- !private ["7Combine16ObservableObjectP", "_arrValidator"]
+- !private ["7Combine16ObservableObjectP", "_errorColor"]
+- !private ["7Combine16ObservableObjectP", "_font"]
+- !private ["7Combine16ObservableObjectP", "_isRequiredField"]
+- !private ["7Combine16ObservableObjectP", "_isSecureTextEntry"]
+- !private ["7Combine16ObservableObjectP", "_isShowError"]
+- !private ["7Combine16ObservableObjectP", "_leftView"]
+- !private ["7Combine16ObservableObjectP", "_lineColor"]
+- !private ["7Combine16ObservableObjectP", "_lineHeight"]
+- !private ["7Combine16ObservableObjectP", "_placeholderColor"]
+- !private ["7Combine16ObservableObjectP", "_placeholderFont"]
+- !private ["7Combine16ObservableObjectP", "_requiredFieldMessage"]
+- !private ["7Combine16ObservableObjectP", "_rightView"]
+- !private ["7Combine16ObservableObjectP", "_selectedLineColor"]
+- !private ["7Combine16ObservableObjectP", "_selectedLineHeight"]
+- !private ["7Combine16ObservableObjectP", "_selectedTextColor"]
+- !private ["7Combine16ObservableObjectP", "_selectedTitleColor"]
+- !private ["7Combine16ObservableObjectP", "_spaceBetweenTitleText"]
+- !private ["7Combine16ObservableObjectP", "_textAlignment"]
+- !private ["7Combine16ObservableObjectP", "_textColor"]
+- !private ["7Combine16ObservableObjectP", "_titleColor"]
+- !private ["7Combine16ObservableObjectP", "_titleFont"]
+- !private ["7Combine16ObservableObjectP", "arrTextFieldEditActions"]
+- !private ["7Combine16ObservableObjectP", "arrValidator"]
+- !private ["7Combine16ObservableObjectP", "errorColor"]
+- !private ["7Combine16ObservableObjectP", "font"]
+- !private ["7Combine16ObservableObjectP", "isRequiredField"]
+- !private ["7Combine16ObservableObjectP", "isSecureTextEntry"]
+- !private ["7Combine16ObservableObjectP", "isShowError"]
+- !private ["7Combine16ObservableObjectP", "leftView"]
+- !private ["7Combine16ObservableObjectP", "lineColor"]
+- !private ["7Combine16ObservableObjectP", "lineHeight"]
+- ["7Combine16ObservableObjectP", "objectWillChange"]
+- !private ["7Combine16ObservableObjectP", "placeholderColor"]
+- !private ["7Combine16ObservableObjectP", "placeholderFont"]
+- !private ["7Combine16ObservableObjectP", "requiredFieldMessage"]
+- !private ["7Combine16ObservableObjectP", "rightView"]
+- !private ["7Combine16ObservableObjectP", "selectedLineColor"]
+- !private ["7Combine16ObservableObjectP", "selectedLineHeight"]
+- !private ["7Combine16ObservableObjectP", "selectedTextColor"]
+- !private ["7Combine16ObservableObjectP", "selectedTitleColor"]
+- !private ["7Combine16ObservableObjectP", "spaceBetweenTitleText"]
+- !private ["7Combine16ObservableObjectP", "textAlignment"]
+- !private ["7Combine16ObservableObjectP", "textColor"]
+- !private ["7Combine16ObservableObjectP", "titleColor"]
+- !private ["7Combine16ObservableObjectP", "titleFont"]
+- ["7Combine9PublishedV", "init"]
+- ["7Combine9PublishedV", "wrappedValue"]
+- ["7SwiftUI10ShapeStyleP", "black"]
+- ["7SwiftUI10ShapeStyleP", "blue"]
+- ["7SwiftUI10ShapeStyleP", "gray"]
+- ["7SwiftUI10ShapeStyleP", "red"]
+- ["7SwiftUI13TextAlignmentO", "leading"]
+- ["7SwiftUI4ViewP", "black"]
+- ["7SwiftUI4ViewP", "blue"]
+- ["7SwiftUI4ViewP", "gray"]
+- ["7SwiftUI4ViewP", "red"]
+depends-nominal:
+- "s12CaseIterableP"
+- "7SwiftUI5ColorV"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "29FloatingLabelTextFieldSwiftUI0abcD8NotifierC"
+- "7SwiftUI4FontV"
+- "SH"
+- "7Combine16ObservableObjectP"
+- "7Combine9PublishedV"
+- "7SwiftUI10ShapeStyleP"
+- "7SwiftUI13TextAlignmentO"
+- "7SwiftUI4ViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Admin/Desktop/EECS497/MedMinder/Pods/Target Support Files/FloatingLabelTextFieldSwiftUI/FloatingLabelTextFieldSwiftUI-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Admin/Desktop/EECS497/MedMinder/DerivedData/MedMinder/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FloatingLabelTextFieldSwiftUI.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a7db16ea3f39b1250885c81854d3556b"

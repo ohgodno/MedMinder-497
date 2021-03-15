@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AssociatedObjectHandle"
+- "ClosureSleeve"
+provides-nominal:
+- "29FloatingLabelTextFieldSwiftUI13ClosureSleeveC"
+provides-member:
+- ["So9UIControlC", ""]
+- ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", ""]
+- ["So9UIControlC", "addAction"]
+provides-dynamic-lookup:
+- "addAction"
+- "closure"
+- "invoke"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "AssociatedObjectHandle"
+- "ClosureSleeve"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "UIControl"
+- "UInt8"
+- !private "addTarget"
+- !private "closure"
+- !private "objc_setAssociatedObject"
+depends-member:
+- ["SK", ""]
+- !private ["So15CALayerDelegateP", "ClosureSleeve"]
+- ["So15CALayerDelegateP", "Event"]
+- ["So15CALayerDelegateP", "UIControl"]
+- ["So15CALayerDelegateP", "addAction"]
+- !private ["So15CALayerDelegateP", "addTarget"]
+- !private ["s7CVarArgP", "ClosureSleeve"]
+- ["s7CVarArgP", "Event"]
+- !private ["s7CVarArgP", "addTarget"]
+- ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", "AnyObject"]
+- !private ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", "AssociatedObjectHandle"]
+- ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", "closure"]
+- ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", "deinit"]
+- ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", "init"]
+- ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", "invoke"]
+- !private ["29FloatingLabelTextFieldSwiftUI13ClosureSleeveC", "objc_setAssociatedObject"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "ClosureSleeve"]
+- ["s28CustomDebugStringConvertibleP", "Event"]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "ClosureSleeve"]
+- ["s23CustomStringConvertibleP", "Event"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["SQ", "ClosureSleeve"]
+- ["SQ", "Event"]
+- !private ["SQ", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["SQ", ""]
+- !private ["SQ", "addTarget"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "ClosureSleeve"]
+- ["SH", "Event"]
+- !private ["SH", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["SH", ""]
+- !private ["SH", "addTarget"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "ClosureSleeve"]
+- ["So8NSCodingP", "Event"]
+- ["So8NSCodingP", "UIControl"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "addAction"]
+- !private ["So8NSCodingP", "addTarget"]
+- !private ["So8NSObjectC", "ClosureSleeve"]
+- ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "UIControl"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addAction"]
+- !private ["So8NSObjectC", "addTarget"]
+- !private ["So8NSObjectP", "ClosureSleeve"]
+- ["So8NSObjectP", "Event"]
+- ["So8NSObjectP", "UIControl"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addAction"]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["SY", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "ClosureSleeve"]
+- ["So29UIAccessibilityIdentificationP", "Event"]
+- ["So29UIAccessibilityIdentificationP", "UIControl"]
+- ["So29UIAccessibilityIdentificationP", "addAction"]
+- !private ["So29UIAccessibilityIdentificationP", "addTarget"]
+- !private ["So12UIAppearanceP", "ClosureSleeve"]
+- ["So12UIAppearanceP", "Event"]
+- ["So12UIAppearanceP", "UIControl"]
+- ["So12UIAppearanceP", "addAction"]
+- !private ["So12UIAppearanceP", "addTarget"]
+- !private ["So21UIAppearanceContainerP", "ClosureSleeve"]
+- ["So21UIAppearanceContainerP", "Event"]
+- ["So21UIAppearanceContainerP", "UIControl"]
+- ["So21UIAppearanceContainerP", "addAction"]
+- !private ["So21UIAppearanceContainerP", "addTarget"]
+- !private ["So32UIContextMenuInteractionDelegateP", "ClosureSleeve"]
+- ["So32UIContextMenuInteractionDelegateP", "Event"]
+- ["So32UIContextMenuInteractionDelegateP", "UIControl"]
+- ["So32UIContextMenuInteractionDelegateP", "addAction"]
+- !private ["So32UIContextMenuInteractionDelegateP", "addTarget"]
+- !private ["So9UIControlC", "ClosureSleeve"]
+- ["So9UIControlC", "Event"]
+- ["So9UIControlC", "UIControl"]
+- ["So9UIControlC", ""]
+- ["So9UIControlC", "addAction"]
+- !private ["So9UIControlC", "addTarget"]
+- !private ["So17UICoordinateSpaceP", "ClosureSleeve"]
+- ["So17UICoordinateSpaceP", "Event"]
+- ["So17UICoordinateSpaceP", "UIControl"]
+- ["So17UICoordinateSpaceP", "addAction"]
+- !private ["So17UICoordinateSpaceP", "addTarget"]
+- !private ["So13UIDynamicItemP", "ClosureSleeve"]
+- ["So13UIDynamicItemP", "Event"]
+- ["So13UIDynamicItemP", "UIControl"]
+- ["So13UIDynamicItemP", "addAction"]
+- !private ["So13UIDynamicItemP", "addTarget"]
+- !private ["So18UIFocusEnvironmentP", "ClosureSleeve"]
+- ["So18UIFocusEnvironmentP", "Event"]
+- ["So18UIFocusEnvironmentP", "UIControl"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "addAction"]
+- !private ["So18UIFocusEnvironmentP", "addTarget"]
+- !private ["So11UIFocusItemP", "ClosureSleeve"]
+- ["So11UIFocusItemP", "Event"]
+- ["So11UIFocusItemP", "UIControl"]
+- ["So11UIFocusItemP", "addAction"]
+- !private ["So11UIFocusItemP", "addTarget"]
+- !private ["So20UIFocusItemContainerP", "ClosureSleeve"]
+- ["So20UIFocusItemContainerP", "Event"]
+- ["So20UIFocusItemContainerP", "UIControl"]
+- ["So20UIFocusItemContainerP", "addAction"]
+- !private ["So20UIFocusItemContainerP", "addTarget"]
+- !private ["So24UILargeContentViewerItemP", "ClosureSleeve"]
+- ["So24UILargeContentViewerItemP", "Event"]
+- ["So24UILargeContentViewerItemP", "UIControl"]
+- ["So24UILargeContentViewerItemP", "addAction"]
+- !private ["So24UILargeContentViewerItemP", "addTarget"]
+- !private ["So30UIPasteConfigurationSupportingP", "ClosureSleeve"]
+- ["So30UIPasteConfigurationSupportingP", "Event"]
+- ["So30UIPasteConfigurationSupportingP", "UIControl"]
+- ["So30UIPasteConfigurationSupportingP", "addAction"]
+- !private ["So30UIPasteConfigurationSupportingP", "addTarget"]
+- !private ["So11UIResponderC", "ClosureSleeve"]
+- ["So11UIResponderC", "Event"]
+- ["So11UIResponderC", "UIControl"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "addAction"]
+- !private ["So11UIResponderC", "addTarget"]
+- !private ["So30UIResponderStandardEditActionsP", "ClosureSleeve"]
+- ["So30UIResponderStandardEditActionsP", "Event"]
+- ["So30UIResponderStandardEditActionsP", "UIControl"]
+- ["So30UIResponderStandardEditActionsP", "addAction"]
+- !private ["So30UIResponderStandardEditActionsP", "addTarget"]
+- !private ["So18UITraitEnvironmentP", "ClosureSleeve"]
+- ["So18UITraitEnvironmentP", "Event"]
+- ["So18UITraitEnvironmentP", "UIControl"]
+- ["So18UITraitEnvironmentP", "addAction"]
+- !private ["So18UITraitEnvironmentP", "addTarget"]
+- !private ["So23UIUserActivityRestoringP", "ClosureSleeve"]
+- ["So23UIUserActivityRestoringP", "Event"]
+- ["So23UIUserActivityRestoringP", "UIControl"]
+- ["So23UIUserActivityRestoringP", "addAction"]
+- !private ["So23UIUserActivityRestoringP", "addTarget"]
+- !private ["So6UIViewC", "ClosureSleeve"]
+- ["So6UIViewC", "Event"]
+- ["So6UIViewC", "UIControl"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "addAction"]
+- !private ["So6UIViewC", "addTarget"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ClosureSleeve"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Event"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ClosureSleeve"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Event"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addTarget"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "ClosureSleeve"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Event"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addTarget"]
+- !private ["So22objc_AssociationPolicyV", "OBJC_ASSOCIATION_RETAIN_NONATOMIC"]
+depends-nominal:
+- "SK"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "29FloatingLabelTextFieldSwiftUI13ClosureSleeveC"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "SY"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "So22objc_AssociationPolicyV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Admin/Desktop/EECS497/MedMinder/Pods/Target Support Files/FloatingLabelTextFieldSwiftUI/FloatingLabelTextFieldSwiftUI-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Admin/Desktop/EECS497/MedMinder/DerivedData/MedMinder/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FloatingLabelTextFieldSwiftUI.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c9931d7e7c283830dcc982f705610d23"

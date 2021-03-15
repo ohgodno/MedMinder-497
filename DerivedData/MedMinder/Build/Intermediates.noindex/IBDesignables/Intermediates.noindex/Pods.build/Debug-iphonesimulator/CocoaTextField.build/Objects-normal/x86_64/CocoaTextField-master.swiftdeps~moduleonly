@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "07c3358dd050ab623c3f0db9973d8b58"
+build_time: [1615791153, 436303000]
+inputs:
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/CocoaTextField/Sources/CocoaTextField/CocoaTextField.swift": [1615790933, 337826861]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/CocoaTextField/Sources/CocoaTextField/UIView+shake.swift": [1615790933, 338472191]

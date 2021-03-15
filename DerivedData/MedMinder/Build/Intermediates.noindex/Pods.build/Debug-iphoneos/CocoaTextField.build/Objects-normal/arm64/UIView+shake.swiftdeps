@@ -1,0 +1,473 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "shake"]
+provides-dynamic-lookup:
+- "shake"
+depends-top-level:
+- !private "-"
+- !private "/"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "CAKeyframeAnimation"
+- !private "CAMediaTimingFunction"
+- !private "CAMediaTimingFunctionName"
+- "CGFloat"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "StringLiteralType"
+- "UIView"
+- !private "layer"
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- ["SK", ""]
+- !private ["SB", "init"]
+- !private ["SB", "isTotallyOrdered"]
+- !private ["SB", "radix"]
+- !private ["So8CAActionP", ""]
+- !private ["So8CAActionP", "animationWithKeyPath"]
+- !private ["So8CAActionP", "duration"]
+- !private ["So8CAActionP", "init"]
+- !private ["So8CAActionP", "timingFunction"]
+- !private ["So8CAActionP", "values"]
+- ["So11CAAnimationC", ""]
+- !private ["So11CAAnimationC", "animationWithKeyPath"]
+- !private ["So11CAAnimationC", "duration"]
+- !private ["So11CAAnimationC", "init"]
+- !private ["So11CAAnimationC", "timingFunction"]
+- !private ["So11CAAnimationC", "values"]
+- !private ["So19CAKeyframeAnimationC", "duration"]
+- !private ["So19CAKeyframeAnimationC", "init"]
+- !private ["So19CAKeyframeAnimationC", "timingFunction"]
+- !private ["So19CAKeyframeAnimationC", "values"]
+- !private ["So7CALayerC", "add"]
+- !private ["So15CALayerDelegateP", "CAKeyframeAnimation"]
+- !private ["So15CALayerDelegateP", "CAMediaTimingFunction"]
+- !private ["So15CALayerDelegateP", "CAMediaTimingFunctionName"]
+- ["So15CALayerDelegateP", "CGFloat"]
+- !private ["So15CALayerDelegateP", "layer"]
+- ["So15CALayerDelegateP", "shake"]
+- !private ["So13CAMediaTimingP", ""]
+- !private ["So13CAMediaTimingP", "add"]
+- !private ["So13CAMediaTimingP", "animationWithKeyPath"]
+- !private ["So13CAMediaTimingP", "duration"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "timingFunction"]
+- !private ["So13CAMediaTimingP", "values"]
+- !private ["So21CAMediaTimingFunctionC", "init"]
+- !private ["So25CAMediaTimingFunctionNamea", "linear"]
+- ["So19CAPropertyAnimationC", ""]
+- !private ["So19CAPropertyAnimationC", "duration"]
+- !private ["So19CAPropertyAnimationC", "init"]
+- !private ["So19CAPropertyAnimationC", "timingFunction"]
+- !private ["So19CAPropertyAnimationC", "values"]
+- !private ["s7CVarArgP", "CAKeyframeAnimation"]
+- !private ["s7CVarArgP", "CAMediaTimingFunction"]
+- !private ["s7CVarArgP", "CAMediaTimingFunctionName"]
+- !private ["s7CVarArgP", "add"]
+- !private ["s7CVarArgP", "duration"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "timingFunction"]
+- !private ["s7CVarArgP", "values"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "CAKeyframeAnimation"]
+- !private ["s28CustomDebugStringConvertibleP", "CAMediaTimingFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "CAMediaTimingFunctionName"]
+- !private ["s28CustomDebugStringConvertibleP", "add"]
+- !private ["s28CustomDebugStringConvertibleP", "duration"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "timingFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s23CustomStringConvertibleP", "CAKeyframeAnimation"]
+- !private ["s23CustomStringConvertibleP", "CAMediaTimingFunction"]
+- !private ["s23CustomStringConvertibleP", "CAMediaTimingFunctionName"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "add"]
+- !private ["s23CustomStringConvertibleP", "duration"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "timingFunction"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["SQ", "CAKeyframeAnimation"]
+- !private ["SQ", "CAMediaTimingFunction"]
+- !private ["SQ", "CAMediaTimingFunctionName"]
+- ["SQ", ""]
+- !private ["SQ", "add"]
+- !private ["SQ", "duration"]
+- !private ["SQ", "init"]
+- !private ["SQ", "layer"]
+- !private ["SQ", "linear"]
+- !private ["SQ", "timingFunction"]
+- !private ["SQ", "values"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SF", "*"]
+- !private ["SF", "*="]
+- !private ["SF", "+"]
+- !private ["SF", "+="]
+- !private ["SF", "-"]
+- !private ["SF", "-="]
+- !private ["SF", "/"]
+- !private ["SF", "/="]
+- !private ["SF", "addProduct"]
+- !private ["SF", "addingProduct"]
+- !private ["SF", "exponent"]
+- !private ["SF", "floatingPointClass"]
+- !private ["SF", "formRemainder"]
+- !private ["SF", "formSquareRoot"]
+- !private ["SF", "formTruncatingRemainder"]
+- !private ["SF", "greatestFiniteMagnitude"]
+- !private ["SF", "infinity"]
+- !private ["SF", "init"]
+- !private ["SF", "isCanonical"]
+- !private ["SF", "isEqual"]
+- !private ["SF", "isFinite"]
+- !private ["SF", "isInfinite"]
+- !private ["SF", "isLess"]
+- !private ["SF", "isLessThanOrEqualTo"]
+- !private ["SF", "isNaN"]
+- !private ["SF", "isNormal"]
+- !private ["SF", "isSignalingNaN"]
+- !private ["SF", "isSubnormal"]
+- !private ["SF", "isTotallyOrdered"]
+- !private ["SF", "isZero"]
+- !private ["SF", "leastNonzeroMagnitude"]
+- !private ["SF", "leastNormalMagnitude"]
+- !private ["SF", "maximum"]
+- !private ["SF", "maximumMagnitude"]
+- !private ["SF", "minimum"]
+- !private ["SF", "minimumMagnitude"]
+- !private ["SF", "nan"]
+- !private ["SF", "negate"]
+- !private ["SF", "nextDown"]
+- !private ["SF", "nextUp"]
+- !private ["SF", "pi"]
+- !private ["SF", "radix"]
+- !private ["SF", "remainder"]
+- !private ["SF", "round"]
+- !private ["SF", "rounded"]
+- !private ["SF", "sign"]
+- !private ["SF", "signalingNaN"]
+- !private ["SF", "significand"]
+- !private ["SF", "squareRoot"]
+- !private ["SF", "truncatingRemainder"]
+- !private ["SF", "ulp"]
+- !private ["SF", "ulpOfOne"]
+- !private ["SH", "CAKeyframeAnimation"]
+- !private ["SH", "CAMediaTimingFunction"]
+- !private ["SH", "CAMediaTimingFunctionName"]
+- ["SH", ""]
+- !private ["SH", "add"]
+- !private ["SH", "duration"]
+- !private ["SH", "init"]
+- !private ["SH", "layer"]
+- !private ["SH", "linear"]
+- !private ["SH", "timingFunction"]
+- !private ["SH", "values"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["So8NSCodingP", "CAKeyframeAnimation"]
+- !private ["So8NSCodingP", "CAMediaTimingFunction"]
+- !private ["So8NSCodingP", "CAMediaTimingFunctionName"]
+- ["So8NSCodingP", "CGFloat"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "add"]
+- !private ["So8NSCodingP", "animationWithKeyPath"]
+- !private ["So8NSCodingP", "duration"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- ["So8NSCodingP", "shake"]
+- !private ["So8NSCodingP", "timingFunction"]
+- !private ["So8NSCodingP", "values"]
+- !private ["So9NSCopyingP", ""]
+- !private ["So9NSCopyingP", "animationWithKeyPath"]
+- !private ["So9NSCopyingP", "duration"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "timingFunction"]
+- !private ["So9NSCopyingP", "values"]
+- !private ["So8NSObjectC", "CAKeyframeAnimation"]
+- !private ["So8NSObjectC", "CAMediaTimingFunction"]
+- !private ["So8NSObjectC", "CAMediaTimingFunctionName"]
+- ["So8NSObjectC", "CGFloat"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "add"]
+- !private ["So8NSObjectC", "addAnimation"]
+- !private ["So8NSObjectC", "animation"]
+- !private ["So8NSObjectC", "animationWithKeyPath"]
+- !private ["So8NSObjectC", "duration"]
+- !private ["So8NSObjectC", "functionWithControlPoints"]
+- !private ["So8NSObjectC", "functionWithName"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "shake"]
+- !private ["So8NSObjectC", "timingFunction"]
+- !private ["So8NSObjectC", "values"]
+- !private ["So8NSObjectP", "CAKeyframeAnimation"]
+- !private ["So8NSObjectP", "CAMediaTimingFunction"]
+- !private ["So8NSObjectP", "CAMediaTimingFunctionName"]
+- ["So8NSObjectP", "CGFloat"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "add"]
+- !private ["So8NSObjectP", "addAnimation"]
+- !private ["So8NSObjectP", "animation"]
+- !private ["So8NSObjectP", "animationWithKeyPath"]
+- !private ["So8NSObjectP", "duration"]
+- !private ["So8NSObjectP", "functionWithControlPoints"]
+- !private ["So8NSObjectP", "functionWithName"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "layer"]
+- ["So8NSObjectP", "shake"]
+- !private ["So8NSObjectP", "timingFunction"]
+- !private ["So8NSObjectP", "values"]
+- !private ["So14NSSecureCodingP", ""]
+- !private ["So14NSSecureCodingP", "add"]
+- !private ["So14NSSecureCodingP", "animationWithKeyPath"]
+- !private ["So14NSSecureCodingP", "duration"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "timingFunction"]
+- !private ["So14NSSecureCodingP", "values"]
+- !private ["Sj", ""]
+- !private ["SY", ""]
+- !private ["SY", "linear"]
+- ["ST", ""]
+- !private ["s13SignedNumericP", "-"]
+- !private ["s13SignedNumericP", ""]
+- !private ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "CAKeyframeAnimation"]
+- !private ["So29UIAccessibilityIdentificationP", "CAMediaTimingFunction"]
+- !private ["So29UIAccessibilityIdentificationP", "CAMediaTimingFunctionName"]
+- ["So29UIAccessibilityIdentificationP", "CGFloat"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- ["So29UIAccessibilityIdentificationP", "shake"]
+- !private ["So12UIAppearanceP", "CAKeyframeAnimation"]
+- !private ["So12UIAppearanceP", "CAMediaTimingFunction"]
+- !private ["So12UIAppearanceP", "CAMediaTimingFunctionName"]
+- ["So12UIAppearanceP", "CGFloat"]
+- !private ["So12UIAppearanceP", "layer"]
+- ["So12UIAppearanceP", "shake"]
+- !private ["So21UIAppearanceContainerP", "CAKeyframeAnimation"]
+- !private ["So21UIAppearanceContainerP", "CAMediaTimingFunction"]
+- !private ["So21UIAppearanceContainerP", "CAMediaTimingFunctionName"]
+- ["So21UIAppearanceContainerP", "CGFloat"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- ["So21UIAppearanceContainerP", "shake"]
+- !private ["So17UICoordinateSpaceP", "CAKeyframeAnimation"]
+- !private ["So17UICoordinateSpaceP", "CAMediaTimingFunction"]
+- !private ["So17UICoordinateSpaceP", "CAMediaTimingFunctionName"]
+- ["So17UICoordinateSpaceP", "CGFloat"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- ["So17UICoordinateSpaceP", "shake"]
+- !private ["So13UIDynamicItemP", "CAKeyframeAnimation"]
+- !private ["So13UIDynamicItemP", "CAMediaTimingFunction"]
+- !private ["So13UIDynamicItemP", "CAMediaTimingFunctionName"]
+- ["So13UIDynamicItemP", "CGFloat"]
+- !private ["So13UIDynamicItemP", "layer"]
+- ["So13UIDynamicItemP", "shake"]
+- !private ["So18UIFocusEnvironmentP", "CAKeyframeAnimation"]
+- !private ["So18UIFocusEnvironmentP", "CAMediaTimingFunction"]
+- !private ["So18UIFocusEnvironmentP", "CAMediaTimingFunctionName"]
+- ["So18UIFocusEnvironmentP", "CGFloat"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- ["So18UIFocusEnvironmentP", "shake"]
+- !private ["So11UIFocusItemP", "CAKeyframeAnimation"]
+- !private ["So11UIFocusItemP", "CAMediaTimingFunction"]
+- !private ["So11UIFocusItemP", "CAMediaTimingFunctionName"]
+- ["So11UIFocusItemP", "CGFloat"]
+- !private ["So11UIFocusItemP", "layer"]
+- ["So11UIFocusItemP", "shake"]
+- !private ["So20UIFocusItemContainerP", "CAKeyframeAnimation"]
+- !private ["So20UIFocusItemContainerP", "CAMediaTimingFunction"]
+- !private ["So20UIFocusItemContainerP", "CAMediaTimingFunctionName"]
+- ["So20UIFocusItemContainerP", "CGFloat"]
+- !private ["So20UIFocusItemContainerP", "layer"]
+- ["So20UIFocusItemContainerP", "shake"]
+- !private ["So24UILargeContentViewerItemP", "CAKeyframeAnimation"]
+- !private ["So24UILargeContentViewerItemP", "CAMediaTimingFunction"]
+- !private ["So24UILargeContentViewerItemP", "CAMediaTimingFunctionName"]
+- ["So24UILargeContentViewerItemP", "CGFloat"]
+- !private ["So24UILargeContentViewerItemP", "layer"]
+- ["So24UILargeContentViewerItemP", "shake"]
+- !private ["So30UIPasteConfigurationSupportingP", "CAKeyframeAnimation"]
+- !private ["So30UIPasteConfigurationSupportingP", "CAMediaTimingFunction"]
+- !private ["So30UIPasteConfigurationSupportingP", "CAMediaTimingFunctionName"]
+- ["So30UIPasteConfigurationSupportingP", "CGFloat"]
+- !private ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- ["So30UIPasteConfigurationSupportingP", "shake"]
+- !private ["So11UIResponderC", "CAKeyframeAnimation"]
+- !private ["So11UIResponderC", "CAMediaTimingFunction"]
+- !private ["So11UIResponderC", "CAMediaTimingFunctionName"]
+- ["So11UIResponderC", "CGFloat"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "shake"]
+- !private ["So30UIResponderStandardEditActionsP", "CAKeyframeAnimation"]
+- !private ["So30UIResponderStandardEditActionsP", "CAMediaTimingFunction"]
+- !private ["So30UIResponderStandardEditActionsP", "CAMediaTimingFunctionName"]
+- ["So30UIResponderStandardEditActionsP", "CGFloat"]
+- !private ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- ["So30UIResponderStandardEditActionsP", "shake"]
+- !private ["So18UITraitEnvironmentP", "CAKeyframeAnimation"]
+- !private ["So18UITraitEnvironmentP", "CAMediaTimingFunction"]
+- !private ["So18UITraitEnvironmentP", "CAMediaTimingFunctionName"]
+- ["So18UITraitEnvironmentP", "CGFloat"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- ["So18UITraitEnvironmentP", "shake"]
+- !private ["So23UIUserActivityRestoringP", "CAKeyframeAnimation"]
+- !private ["So23UIUserActivityRestoringP", "CAMediaTimingFunction"]
+- !private ["So23UIUserActivityRestoringP", "CAMediaTimingFunctionName"]
+- ["So23UIUserActivityRestoringP", "CGFloat"]
+- !private ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "layer"]
+- ["So23UIUserActivityRestoringP", "shake"]
+- !private ["So6UIViewC", "CAKeyframeAnimation"]
+- !private ["So6UIViewC", "CAMediaTimingFunction"]
+- !private ["So6UIViewC", "CAMediaTimingFunctionName"]
+- ["So6UIViewC", "CGFloat"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "shake"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", ""]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "linear"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CAKeyframeAnimation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CAMediaTimingFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CAMediaTimingFunctionName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "add"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "duration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timingFunction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "values"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CAKeyframeAnimation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CAMediaTimingFunction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CAMediaTimingFunctionName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "add"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "duration"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timingFunction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "values"]
+- !private ["s21_ObjectiveCBridgeableP", "linear"]
+- !private ["s20_SwiftNewtypeWrapperP", "linear"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CAKeyframeAnimation"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CAMediaTimingFunction"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "CAMediaTimingFunctionName"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "layer"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "SK"
+- !private "SB"
+- !private "So8CAActionP"
+- "So11CAAnimationC"
+- !private "So19CAKeyframeAnimationC"
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "So21CAMediaTimingFunctionC"
+- !private "So25CAMediaTimingFunctionNamea"
+- "So19CAPropertyAnimationC"
+- !private "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SF"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sj"
+- !private "SY"
+- "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Admin/Desktop/EECS497/MedMinder/Pods/Target Support Files/CocoaTextField/CocoaTextField-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Admin/Desktop/EECS497/MedMinder/DerivedData/MedMinder/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/CocoaTextField.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0592d8da6988dc77d67e4458a0819fd2"

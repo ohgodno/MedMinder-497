@@ -1,0 +1,723 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextFieldEditActions"
+- "arrTextFieldEditActions"
+provides-nominal:
+- "29FloatingLabelTextFieldSwiftUI0cD11EditActionsO"
+provides-member:
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", ""]
+- ["So11UITextFieldC", ""]
+- ["So11UITextFieldC", "target"]
+provides-dynamic-lookup:
+- "target"
+depends-top-level:
+- "=="
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Selector"
+- "TextFieldEditActions"
+- !private "UIResponderStandardEditActions"
+- "UITextField"
+- "arrTextFieldEditActions"
+- !private "||"
+depends-member:
+- !private ["5UIKit15UICellAccessoryV0C4TypeO", "all"]
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "all"]
+- !private ["7SwiftUI10AnimatableP", "all"]
+- !private ["s11AnyHashableV", "all"]
+- !private ["s8AnyIndexV", "all"]
+- !private ["s10AnyKeyPathC", "all"]
+- !private ["5UIKit35UICollectionLayoutListConfigurationV10AppearanceO", "all"]
+- !private ["Sa", "contains"]
+- !private ["So17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO", "all"]
+- ["SK", ""]
+- !private ["SK", "all"]
+- !private ["SK", "contains"]
+- !private ["Sz", ""]
+- !private ["Sz", "all"]
+- !private ["Sb", "all"]
+- ["So15CALayerDelegateP", "Selector"]
+- !private ["So15CALayerDelegateP", "arrTextFieldEditActions"]
+- ["So15CALayerDelegateP", "target"]
+- !private ["So17CGAffineTransformV", "all"]
+- !private ["So7CGPointV", "all"]
+- !private ["So6CGRectV", "all"]
+- !private ["So6CGSizeV", "all"]
+- !private ["So8CGVectorV", "all"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "all"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "contains"]
+- !private ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "all"]
+- !private ["s7CVarArgP", "arrTextFieldEditActions"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "target"]
+- !private ["10Foundation8CalendarV", "all"]
+- !private ["s7UnicodeO23CanonicalCombiningClassV", "all"]
+- !private ["SJ", "all"]
+- !private ["10Foundation12CharacterSetV", "all"]
+- !private ["s17CodingUserInfoKeyV", "all"]
+- ["Sl", ""]
+- !private ["Sl", "all"]
+- !private ["Sl", "contains"]
+- !private ["7SwiftUI8CommandsP", "all"]
+- ["SL", ""]
+- !private ["SL", "all"]
+- !private ["10Foundation8CalendarV9ComponentO", "all"]
+- !private ["10Foundation15ContiguousBytesP", "all"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "all"]
+- !private ["s28CustomDebugStringConvertibleP", "arrTextFieldEditActions"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "target"]
+- !private ["s17CustomReflectableP", "all"]
+- !private ["s17CustomReflectableP", "contains"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "all"]
+- !private ["s23CustomStringConvertibleP", "arrTextFieldEditActions"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "target"]
+- !private ["7SwiftUI26CustomizableToolbarContentP", "all"]
+- !private ["6Darwin0A7BooleanV", "all"]
+- !private ["10Foundation4DataV", "all"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "all"]
+- !private ["10Foundation12DataProtocolP", "contains"]
+- !private ["10Foundation4DateV", "all"]
+- !private ["10Foundation14DateComponentsV", "all"]
+- !private ["10Foundation12DateIntervalV", "all"]
+- !private ["So9NSDecimala", "all"]
+- !private ["Se", "all"]
+- !private ["Se", "contains"]
+- !private ["8Dispatch0A3QoSV", "all"]
+- !private ["8Dispatch0A4TimeV", "all"]
+- !private ["8Dispatch0A12TimeIntervalO", "all"]
+- !private ["8Dispatch0A13TimeoutResultO", "all"]
+- !private ["8Dispatch0A8WallTimeV", "all"]
+- !private ["s6MirrorV12DisplayStyleO", "all"]
+- !private ["5UIKit15UICellAccessoryV14DisplayedStateO", "all"]
+- !private ["5UIKit24UICellConfigurationStateV04DragD0O", "all"]
+- !private ["5UIKit24UICellConfigurationStateV04DropD0O", "all"]
+- !private ["SE", "all"]
+- !private ["SE", "contains"]
+- !private ["SS10FoundationE8EncodingV", "all"]
+- ["SQ", "=="]
+- !private ["SQ", "UIResponderStandardEditActions"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "all"]
+- !private ["SQ", "arrTextFieldEditActions"]
+- !private ["SQ", "contains"]
+- ["SQ", "copy"]
+- ["SQ", "cut"]
+- ["SQ", "decreaseSize"]
+- ["SQ", "delete"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "increaseSize"]
+- ["SQ", "makeTextWritingDirectionLeftToRight"]
+- ["SQ", "makeTextWritingDirectionRightToLeft"]
+- ["SQ", "paste"]
+- ["SQ", "select"]
+- ["SQ", "selectAll"]
+- !private ["SQ", "selector"]
+- !private ["SQ", "target"]
+- ["SQ", "toggleBoldface"]
+- ["SQ", "toggleItalics"]
+- ["SQ", "toggleUnderline"]
+- !private ["s5ErrorP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "all"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "all"]
+- !private ["s25ExpressibleByFloatLiteralP", "all"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "all"]
+- !private ["s23ExpressibleByNilLiteralP", "all"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "all"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "all"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "all"]
+- !private ["s17FixedWidthIntegerP", "all"]
+- !private ["s27FloatingPointClassificationO", "all"]
+- !private ["s25FloatingPointRoundingRuleO", "all"]
+- !private ["s17FloatingPointSignO", "all"]
+- !private ["5UIKit35UICollectionLayoutListConfigurationV10FooterModeO", "all"]
+- !private ["s7UnicodeO15GeneralCategoryO", "all"]
+- !private ["7SwiftUI7GestureP", "all"]
+- !private ["So17OS_dispatch_queueC8DispatchE19GlobalQueuePriorityO", "all"]
+- ["SH", "=="]
+- !private ["SH", "UIResponderStandardEditActions"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "all"]
+- !private ["SH", "arrTextFieldEditActions"]
+- !private ["SH", "contains"]
+- ["SH", "copy"]
+- ["SH", "cut"]
+- ["SH", "decreaseSize"]
+- ["SH", "delete"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "increaseSize"]
+- ["SH", "makeTextWritingDirectionLeftToRight"]
+- ["SH", "makeTextWritingDirectionRightToLeft"]
+- ["SH", "paste"]
+- ["SH", "select"]
+- ["SH", "selectAll"]
+- !private ["SH", "selector"]
+- !private ["SH", "target"]
+- ["SH", "toggleBoldface"]
+- ["SH", "toggleItalics"]
+- ["SH", "toggleUnderline"]
+- !private ["s6HasherV", "combine"]
+- !private ["5UIKit35UICollectionLayoutListConfigurationV10HeaderModeO", "all"]
+- !private ["10Foundation8CalendarV10IdentifierO", "all"]
+- !private ["5UIKit26UIListContentConfigurationV15ImagePropertiesV", "all"]
+- !private ["10Foundation8IndexSetV0B0V", "all"]
+- !private ["SS5IndexV", "all"]
+- !private ["s16_ValidUTF8BufferV5IndexV", "all"]
+- !private ["10Foundation9IndexPathV", "all"]
+- !private ["10Foundation8IndexSetV", "all"]
+- !private ["Si", "all"]
+- !private ["s5Int16V", "all"]
+- !private ["s5Int32V", "all"]
+- !private ["s5Int64V", "all"]
+- !private ["s4Int8V", "all"]
+- !private ["10Foundation6LocaleV", "all"]
+- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "all"]
+- !private ["10Foundation8CalendarV14MatchingPolicyO", "all"]
+- !private ["s10MirrorPathP", "all"]
+- !private ["SM", ""]
+- !private ["SM", "all"]
+- !private ["SM", "contains"]
+- !private ["10Foundation19MutableDataProtocolP", "all"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
+- ["So8NSCodingP", "Selector"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "arrTextFieldEditActions"]
+- ["So8NSCodingP", "target"]
+- !private ["So23NSDirectionalEdgeInsetsV", "all"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "all"]
+- !private ["So8NSObjectC", "arrTextFieldEditActions"]
+- ["So8NSObjectC", "target"]
+- ["So8NSObjectC", "targetForAction"]
+- ["So8NSObjectP", "Selector"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "all"]
+- !private ["So8NSObjectP", "arrTextFieldEditActions"]
+- !private ["So8NSObjectP", "copy"]
+- !private ["So8NSObjectP", "cut"]
+- !private ["So8NSObjectP", "decreaseSize"]
+- !private ["So8NSObjectP", "delete"]
+- !private ["So8NSObjectP", "increaseSize"]
+- !private ["So8NSObjectP", "makeTextWritingDirectionLeftToRight"]
+- !private ["So8NSObjectP", "makeTextWritingDirectionRightToLeft"]
+- !private ["So8NSObjectP", "paste"]
+- !private ["So8NSObjectP", "select"]
+- !private ["So8NSObjectP", "selectAll"]
+- !private ["So8NSObjectP", "self"]
+- ["So8NSObjectP", "target"]
+- ["So8NSObjectP", "targetForAction"]
+- !private ["So8NSObjectP", "toggleBoldface"]
+- !private ["So8NSObjectP", "toggleItalics"]
+- !private ["So8NSObjectP", "toggleUnderline"]
+- !private ["s5NeverO", "all"]
+- !private ["10Foundation12NotificationV", "all"]
+- !private ["So9NSScannerC10FoundationE20NumberRepresentationO", "all"]
+- !private ["Sj", ""]
+- !private ["Sj", "all"]
+- !private ["s7UnicodeO11NumericTypeO", "all"]
+- !private ["SO", "all"]
+- !private ["s13OpaquePointerV", "all"]
+- !private ["Sq", "all"]
+- !private ["10Foundation20PersonNameComponentsV", "all"]
+- !private ["7Combine9PublisherP", "all"]
+- !private ["So20NSNotificationCenterC10FoundationE9PublisherV", "all"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "all"]
+- !private ["Sk", ""]
+- !private ["Sk", "all"]
+- !private ["Sk", "contains"]
+- !private ["Sm", ""]
+- !private ["Sm", "all"]
+- !private ["Sm", "contains"]
+- !private ["10Foundation8IndexSetV9RangeViewV", "all"]
+- !private ["SY", "all"]
+- !private ["10Foundation20ReferenceConvertibleP", "all"]
+- !private ["10Foundation8CalendarV18RepeatedTimePolicyO", "all"]
+- !private ["s10SIMDScalarP", "all"]
+- !private ["s7UnicodeO6ScalarV", "all"]
+- !private ["7SwiftUI5SceneP", "all"]
+- !private ["7Combine32SchedulerTimeIntervalConvertibleP", "all"]
+- !private ["10Foundation8CalendarV15SearchDirectionO", "all"]
+- !private ["10ObjectiveC8SelectorV", "all"]
+- ["ST", ""]
+- !private ["ST", "all"]
+- !private ["ST", "contains"]
+- !private ["s10SetAlgebraP", "all"]
+- !private ["SZ", "all"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "all"]
+- !private ["So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV", "all"]
+- !private ["So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV", "all"]
+- !private ["So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV", "all"]
+- !private ["Sx", ""]
+- !private ["Sx", "all"]
+- !private ["SS", "all"]
+- !private ["Sy", "all"]
+- !private ["5UIKit15UICellAccessoryV24OutlineDisclosureOptionsV5StyleO", "all"]
+- !private ["5UIKit26UIListContentConfigurationV14TextPropertiesV0E9AlignmentO", "all"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "=="]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "Selector"]
+- !private ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "UIResponderStandardEditActions"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", ""]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "__derived_enum_equals"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "_rawHashValue"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "all"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "copy"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "cut"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "decreaseSize"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "delete"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "hash"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "hashValue"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "increaseSize"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "makeTextWritingDirectionLeftToRight"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "makeTextWritingDirectionRightToLeft"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "paste"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "select"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "selectAll"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "selector"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "toggleBoldface"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "toggleItalics"]
+- ["29FloatingLabelTextFieldSwiftUI0cD11EditActionsO", "toggleUnderline"]
+- ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "all"]
+- ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "all"]
+- !private ["5UIKit26UIListContentConfigurationV14TextPropertiesV", "all"]
+- !private ["5UIKit26UIListContentConfigurationV14TextPropertiesV0E9TransformO", "all"]
+- !private ["10Foundation8TimeZoneV", "all"]
+- !private ["5UIKit15UIPointerEffectO8TintModeO", "all"]
+- !private ["7SwiftUI14ToolbarContentP", ""]
+- !private ["7SwiftUI14ToolbarContentP", "all"]
+- ["So29UIAccessibilityIdentificationP", "Selector"]
+- !private ["So29UIAccessibilityIdentificationP", "arrTextFieldEditActions"]
+- ["So29UIAccessibilityIdentificationP", "target"]
+- ["So12UIAppearanceP", "Selector"]
+- !private ["So12UIAppearanceP", "arrTextFieldEditActions"]
+- ["So12UIAppearanceP", "target"]
+- ["So21UIAppearanceContainerP", "Selector"]
+- !private ["So21UIAppearanceContainerP", "arrTextFieldEditActions"]
+- ["So21UIAppearanceContainerP", "target"]
+- !private ["5UIKit25UIBackgroundConfigurationV", "all"]
+- !private ["5UIKit24UICellConfigurationStateV", "all"]
+- !private ["5UIKit20UIConfigurationStateP", "all"]
+- !private ["5UIKit22UIContentConfigurationP", "all"]
+- ["So30UIContentSizeCategoryAdjustingP", "Selector"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "arrTextFieldEditActions"]
+- ["So30UIContentSizeCategoryAdjustingP", "target"]
+- ["So32UIContextMenuInteractionDelegateP", "Selector"]
+- !private ["So32UIContextMenuInteractionDelegateP", "arrTextFieldEditActions"]
+- ["So32UIContextMenuInteractionDelegateP", "target"]
+- ["So9UIControlC", "Selector"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "arrTextFieldEditActions"]
+- ["So9UIControlC", "target"]
+- ["So17UICoordinateSpaceP", "Selector"]
+- !private ["So17UICoordinateSpaceP", "arrTextFieldEditActions"]
+- ["So17UICoordinateSpaceP", "target"]
+- ["So13UIDynamicItemP", "Selector"]
+- !private ["So13UIDynamicItemP", "arrTextFieldEditActions"]
+- ["So13UIDynamicItemP", "target"]
+- !private ["So12UIEdgeInsetsV", "all"]
+- !private ["So12UIFloatRangea", "all"]
+- ["So18UIFocusEnvironmentP", "Selector"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "arrTextFieldEditActions"]
+- ["So18UIFocusEnvironmentP", "target"]
+- ["So11UIFocusItemP", "Selector"]
+- !private ["So11UIFocusItemP", "arrTextFieldEditActions"]
+- ["So11UIFocusItemP", "target"]
+- ["So20UIFocusItemContainerP", "Selector"]
+- !private ["So20UIFocusItemContainerP", "arrTextFieldEditActions"]
+- ["So20UIFocusItemContainerP", "target"]
+- ["So10UIKeyInputP", "Selector"]
+- ["So10UIKeyInputP", ""]
+- !private ["So10UIKeyInputP", "arrTextFieldEditActions"]
+- ["So10UIKeyInputP", "target"]
+- ["So24UILargeContentViewerItemP", "Selector"]
+- !private ["So24UILargeContentViewerItemP", "arrTextFieldEditActions"]
+- ["So24UILargeContentViewerItemP", "target"]
+- !private ["5UIKit26UIListContentConfigurationV", "all"]
+- !private ["So8UIOffsetV", "all"]
+- ["So30UIPasteConfigurationSupportingP", "Selector"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "arrTextFieldEditActions"]
+- ["So30UIPasteConfigurationSupportingP", "target"]
+- ["So11UIResponderC", "Selector"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "arrTextFieldEditActions"]
+- ["So11UIResponderC", "target"]
+- ["So30UIResponderStandardEditActionsP", "Selector"]
+- !private ["So30UIResponderStandardEditActionsP", "arrTextFieldEditActions"]
+- !private ["So30UIResponderStandardEditActionsP", "copy"]
+- !private ["So30UIResponderStandardEditActionsP", "cut"]
+- !private ["So30UIResponderStandardEditActionsP", "decreaseSize"]
+- !private ["So30UIResponderStandardEditActionsP", "delete"]
+- !private ["So30UIResponderStandardEditActionsP", "increaseSize"]
+- !private ["So30UIResponderStandardEditActionsP", "makeTextWritingDirectionLeftToRight"]
+- !private ["So30UIResponderStandardEditActionsP", "makeTextWritingDirectionRightToLeft"]
+- !private ["So30UIResponderStandardEditActionsP", "paste"]
+- !private ["So30UIResponderStandardEditActionsP", "select"]
+- !private ["So30UIResponderStandardEditActionsP", "selectAll"]
+- !private ["So30UIResponderStandardEditActionsP", "self"]
+- ["So30UIResponderStandardEditActionsP", "target"]
+- !private ["So30UIResponderStandardEditActionsP", "toggleBoldface"]
+- !private ["So30UIResponderStandardEditActionsP", "toggleItalics"]
+- !private ["So30UIResponderStandardEditActionsP", "toggleUnderline"]
+- ["So15UITextDraggableP", "Selector"]
+- !private ["So15UITextDraggableP", "arrTextFieldEditActions"]
+- ["So15UITextDraggableP", "target"]
+- ["So15UITextDroppableP", "Selector"]
+- !private ["So15UITextDroppableP", "arrTextFieldEditActions"]
+- ["So15UITextDroppableP", "target"]
+- ["So11UITextFieldC", "Selector"]
+- ["So11UITextFieldC", ""]
+- !private ["So11UITextFieldC", "arrTextFieldEditActions"]
+- ["So11UITextFieldC", "target"]
+- ["So11UITextInputP", "Selector"]
+- ["So11UITextInputP", ""]
+- !private ["So11UITextInputP", "arrTextFieldEditActions"]
+- ["So11UITextInputP", "target"]
+- ["So17UITextInputTraitsP", "Selector"]
+- ["So17UITextInputTraitsP", ""]
+- !private ["So17UITextInputTraitsP", "arrTextFieldEditActions"]
+- ["So17UITextInputTraitsP", "target"]
+- ["So34UITextPasteConfigurationSupportingP", "Selector"]
+- ["So34UITextPasteConfigurationSupportingP", ""]
+- !private ["So34UITextPasteConfigurationSupportingP", "arrTextFieldEditActions"]
+- ["So34UITextPasteConfigurationSupportingP", "target"]
+- ["So18UITraitEnvironmentP", "Selector"]
+- !private ["So18UITraitEnvironmentP", "arrTextFieldEditActions"]
+- ["So18UITraitEnvironmentP", "target"]
+- ["So23UIUserActivityRestoringP", "Selector"]
+- !private ["So23UIUserActivityRestoringP", "arrTextFieldEditActions"]
+- ["So23UIUserActivityRestoringP", "target"]
+- ["So6UIViewC", "Selector"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "arrTextFieldEditActions"]
+- ["So6UIViewC", "target"]
+- !private ["5UIKit24UIViewConfigurationStateV", "all"]
+- !private ["Su", "all"]
+- !private ["s6UInt16V", "all"]
+- !private ["s6UInt32V", "all"]
+- !private ["s6UInt64V", "all"]
+- !private ["s5UInt8V", "all"]
+- !private ["10Foundation3URLV", "all"]
+- !private ["10Foundation13URLComponentsV", "all"]
+- !private ["10Foundation12URLQueryItemV", "all"]
+- !private ["10Foundation10URLRequestV", "all"]
+- !private ["s7UnicodeO5UTF32O", "all"]
+- !private ["10Foundation4UUIDV", "all"]
+- !private ["s12UnicodeCodecP", "all"]
+- !private ["s21UnicodeDecodingResultO", "all"]
+- !private ["SU", "all"]
+- !private ["7SwiftUI4ViewP", "all"]
+- !private ["7SwiftUI19WidgetConfigurationP", "all"]
+- !private ["s14_AppendKeyPathP", "all"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s15_CVarArgAlignedP", "all"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "all"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "all"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "all"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "all"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "all"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "all"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "all"]
+- !private ["7SwiftUI18_FormatSpecifiableP", "all"]
+- !private ["s19_HasContiguousBytesP", "all"]
+- !private ["s19_HasContiguousBytesP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "all"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "all"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arrTextFieldEditActions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "target"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "all"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "arrTextFieldEditActions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "target"]
+- !private ["So8_NSRangeV", "all"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "all"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s26_OptionalNilComparisonTypeV", "all"]
+- !private ["s14_StringElementP", "all"]
+- !private ["s16_UnicodeEncodingP", ""]
+- !private ["s16_UnicodeEncodingP", "all"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "arrTextFieldEditActions"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "target"]
+depends-nominal:
+- !private "5UIKit15UICellAccessoryV0C4TypeO"
+- !private "s18AdditiveArithmeticP"
+- !private "7SwiftUI10AnimatableP"
+- !private "s11AnyHashableV"
+- !private "s8AnyIndexV"
+- !private "s10AnyKeyPathC"
+- !private "5UIKit35UICollectionLayoutListConfigurationV10AppearanceO"
+- !private "Sa"
+- !private "So17OS_dispatch_queueC8DispatchE20AutoreleaseFrequencyO"
+- "SK"
+- !private "Sz"
+- !private "Sb"
+- "So15CALayerDelegateP"
+- !private "So17CGAffineTransformV"
+- !private "So7CGPointV"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "So8CGVectorV"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "10Foundation8CalendarV"
+- !private "s7UnicodeO23CanonicalCombiningClassV"
+- !private "SJ"
+- !private "10Foundation12CharacterSetV"
+- !private "s17CodingUserInfoKeyV"
+- "Sl"
+- !private "7SwiftUI8CommandsP"
+- "SL"
+- !private "10Foundation8CalendarV9ComponentO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "7SwiftUI26CustomizableToolbarContentP"
+- !private "6Darwin0A7BooleanV"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "10Foundation4DateV"
+- !private "10Foundation14DateComponentsV"
+- !private "10Foundation12DateIntervalV"
+- !private "So9NSDecimala"
+- !private "Se"
+- !private "8Dispatch0A3QoSV"
+- !private "8Dispatch0A4TimeV"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "8Dispatch0A13TimeoutResultO"
+- !private "8Dispatch0A8WallTimeV"
+- !private "s6MirrorV12DisplayStyleO"
+- !private "5UIKit15UICellAccessoryV14DisplayedStateO"
+- !private "5UIKit24UICellConfigurationStateV04DragD0O"
+- !private "5UIKit24UICellConfigurationStateV04DropD0O"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "s27FloatingPointClassificationO"
+- !private "s25FloatingPointRoundingRuleO"
+- !private "s17FloatingPointSignO"
+- !private "5UIKit35UICollectionLayoutListConfigurationV10FooterModeO"
+- !private "s7UnicodeO15GeneralCategoryO"
+- !private "7SwiftUI7GestureP"
+- !private "So17OS_dispatch_queueC8DispatchE19GlobalQueuePriorityO"
+- "SH"
+- !private "s6HasherV"
+- !private "5UIKit35UICollectionLayoutListConfigurationV10HeaderModeO"
+- !private "10Foundation8CalendarV10IdentifierO"
+- !private "5UIKit26UIListContentConfigurationV15ImagePropertiesV"
+- !private "10Foundation8IndexSetV0B0V"
+- !private "SS5IndexV"
+- !private "s16_ValidUTF8BufferV5IndexV"
+- !private "10Foundation9IndexPathV"
+- !private "10Foundation8IndexSetV"
+- !private "Si"
+- !private "s5Int16V"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- !private "s4Int8V"
+- !private "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- !private "10Foundation8CalendarV14MatchingPolicyO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So23NSDirectionalEdgeInsetsV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s5NeverO"
+- !private "10Foundation12NotificationV"
+- !private "So9NSScannerC10FoundationE20NumberRepresentationO"
+- !private "Sj"
+- !private "s7UnicodeO11NumericTypeO"
+- !private "SO"
+- !private "s13OpaquePointerV"
+- !private "Sq"
+- !private "10Foundation20PersonNameComponentsV"
+- !private "7Combine9PublisherP"
+- !private "So20NSNotificationCenterC10FoundationE9PublisherV"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation8IndexSetV9RangeViewV"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Foundation8CalendarV18RepeatedTimePolicyO"
+- !private "s10SIMDScalarP"
+- !private "s7UnicodeO6ScalarV"
+- !private "7SwiftUI5SceneP"
+- !private "7Combine32SchedulerTimeIntervalConvertibleP"
+- !private "10Foundation8CalendarV15SearchDirectionO"
+- !private "10ObjectiveC8SelectorV"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "So16NSOperationQueueC10FoundationE17SchedulerTimeTypeV6StrideV"
+- !private "So17OS_dispatch_queueC8DispatchE17SchedulerTimeTypeV6StrideV"
+- !private "So9NSRunLoopC10FoundationE17SchedulerTimeTypeV6StrideV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "5UIKit15UICellAccessoryV24OutlineDisclosureOptionsV5StyleO"
+- !private "5UIKit26UIListContentConfigurationV14TextPropertiesV0E9AlignmentO"
+- "29FloatingLabelTextFieldSwiftUI0cD11EditActionsO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "5UIKit26UIListContentConfigurationV14TextPropertiesV"
+- !private "5UIKit26UIListContentConfigurationV14TextPropertiesV0E9TransformO"
+- !private "10Foundation8TimeZoneV"
+- !private "5UIKit15UIPointerEffectO8TintModeO"
+- !private "7SwiftUI14ToolbarContentP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "5UIKit25UIBackgroundConfigurationV"
+- !private "5UIKit24UICellConfigurationStateV"
+- !private "5UIKit20UIConfigurationStateP"
+- !private "5UIKit22UIContentConfigurationP"
+- "So30UIContentSizeCategoryAdjustingP"
+- "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- !private "So12UIEdgeInsetsV"
+- !private "So12UIFloatRangea"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So10UIKeyInputP"
+- "So24UILargeContentViewerItemP"
+- !private "5UIKit26UIListContentConfigurationV"
+- !private "So8UIOffsetV"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITextDraggableP"
+- "So15UITextDroppableP"
+- "So11UITextFieldC"
+- "So11UITextInputP"
+- "So17UITextInputTraitsP"
+- "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "5UIKit24UIViewConfigurationStateV"
+- !private "Su"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "s6UInt64V"
+- !private "s5UInt8V"
+- !private "10Foundation3URLV"
+- !private "10Foundation13URLComponentsV"
+- !private "10Foundation12URLQueryItemV"
+- !private "10Foundation10URLRequestV"
+- !private "s7UnicodeO5UTF32O"
+- !private "10Foundation4UUIDV"
+- !private "s12UnicodeCodecP"
+- !private "s21UnicodeDecodingResultO"
+- !private "SU"
+- !private "7SwiftUI4ViewP"
+- !private "7SwiftUI19WidgetConfigurationP"
+- !private "s14_AppendKeyPathP"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "7SwiftUI18_FormatSpecifiableP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "So8_NSRangeV"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s14_StringElementP"
+- !private "s16_UnicodeEncodingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/os.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/Admin/Desktop/EECS497/MedMinder/Pods/Target Support Files/FloatingLabelTextFieldSwiftUI/FloatingLabelTextFieldSwiftUI-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/Admin/Desktop/EECS497/MedMinder/DerivedData/MedMinder/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FloatingLabelTextFieldSwiftUI.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9e00ada73099faed2229ab6361aa28e7"

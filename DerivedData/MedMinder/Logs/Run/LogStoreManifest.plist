@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>46096366-B2B7-4193-B347-F08420DD1413</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>46096366-B2B7-4193-B347-F08420DD1413.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637485993.503878</real>
+			<key>timeStoppedRecording</key>
+			<real>637486007.12175798</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>46096366-B2B7-4193-B347-F08420DD1413</string>
+		</dict>
+		<key>5A57DB84-76D6-449C-A042-FD0525A005C4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5A57DB84-76D6-449C-A042-FD0525A005C4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637487485.61617899</real>
+			<key>timeStoppedRecording</key>
+			<real>637487531.12272096</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>5A57DB84-76D6-449C-A042-FD0525A005C4</string>
+		</dict>
+		<key>84848AAA-7596-4DB0-B504-CC59E1A1C07A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>84848AAA-7596-4DB0-B504-CC59E1A1C07A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637487605.02957499</real>
+			<key>timeStoppedRecording</key>
+			<real>637487680.16230297</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>84848AAA-7596-4DB0-B504-CC59E1A1C07A</string>
+		</dict>
+		<key>A30D520D-94F7-4C25-AA6D-5C5AA3DAD565</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A30D520D-94F7-4C25-AA6D-5C5AA3DAD565.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637486909.85208499</real>
+			<key>timeStoppedRecording</key>
+			<real>637486936.60385895</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>A30D520D-94F7-4C25-AA6D-5C5AA3DAD565</string>
+		</dict>
+		<key>BC0F2F27-EA42-4DA5-8CC8-98725319178D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>BC0F2F27-EA42-4DA5-8CC8-98725319178D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637487406.75876999</real>
+			<key>timeStoppedRecording</key>
+			<real>637487483.56195199</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>BC0F2F27-EA42-4DA5-8CC8-98725319178D</string>
+		</dict>
+		<key>C2F32863-17B0-4FFE-9A1F-3157AFF444CE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C2F32863-17B0-4FFE-9A1F-3157AFF444CE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637486398.04282606</real>
+			<key>timeStoppedRecording</key>
+			<real>637486908.66475904</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>C2F32863-17B0-4FFE-9A1F-3157AFF444CE</string>
+		</dict>
+		<key>D32A5CF8-AFA7-4C23-AE50-06D428052491</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D32A5CF8-AFA7-4C23-AE50-06D428052491.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637487533.23538697</real>
+			<key>timeStoppedRecording</key>
+			<real>637487603.60139501</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>D32A5CF8-AFA7-4C23-AE50-06D428052491</string>
+		</dict>
+		<key>EBACD6B1-7F1C-4152-A569-2075D01CCA45</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EBACD6B1-7F1C-4152-A569-2075D01CCA45.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637486937.62859297</real>
+			<key>timeStoppedRecording</key>
+			<real>637487340.47975397</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>EBACD6B1-7F1C-4152-A569-2075D01CCA45</string>
+		</dict>
+		<key>ECBA9EE7-2209-4ACB-99C2-443C24ACFBBC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ECBA9EE7-2209-4ACB-99C2-443C24ACFBBC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637487345.43699801</real>
+			<key>timeStoppedRecording</key>
+			<real>637487405.69505501</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>ECBA9EE7-2209-4ACB-99C2-443C24ACFBBC</string>
+		</dict>
+		<key>ED02585D-FCED-4E5F-835C-6E2F1C34F29D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ED02585D-FCED-4E5F-835C-6E2F1C34F29D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MedMinder project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MedMinder</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run MedMinder</string>
+			<key>timeStartedRecording</key>
+			<real>637486243.62069702</real>
+			<key>timeStoppedRecording</key>
+			<real>637486325.66605997</real>
+			<key>title</key>
+			<string>Run MedMinder</string>
+			<key>uniqueIdentifier</key>
+			<string>ED02585D-FCED-4E5F-835C-6E2F1C34F29D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

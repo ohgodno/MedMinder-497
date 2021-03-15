@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "7aee96fb082fbbde6d9d4f7d9fa27895"
+build_time: [1615794803, 559095000]
+inputs:
+  "/Users/Admin/Desktop/EECS497/MedMinder/MedMinder/EditAccount.swift": [1615789375, 432140415]
+  "/Users/Admin/Desktop/EECS497/MedMinder/MedMinder/MedicationView.swift": [1615789462, 150114465]
+  "/Users/Admin/Desktop/EECS497/MedMinder/MedMinder/FloatingLabelInput.swift": [1615792084, 761000899]
+  "/Users/Admin/Desktop/EECS497/MedMinder/MedMinder/AddMedication.swift": [1615794801, 838253502]
+  "/Users/Admin/Desktop/EECS497/MedMinder/MedMinder/AppDelegate.swift": [1615784770, 976004956]
+  "/Users/Admin/Desktop/EECS497/MedMinder/MedMinder/SceneDelegate.swift": [1615784770, 980750658]
+  "/Users/Admin/Desktop/EECS497/MedMinder/MedMinder/AccountView.swift": [1615789525, 880782394]

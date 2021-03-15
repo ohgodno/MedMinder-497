@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "19b77135073f433d4e6f52d41b544dd1"
+build_time: [1615792915, 332470000]
+inputs:
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/AlamofireObjectMapper/AlamofireObjectMapper/AlamofireObjectMapper.swift": [1615784894, 101234359]

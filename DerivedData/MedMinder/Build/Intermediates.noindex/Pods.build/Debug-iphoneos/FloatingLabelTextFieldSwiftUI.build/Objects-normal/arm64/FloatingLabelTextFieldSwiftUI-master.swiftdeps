@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "10e6dcf563b543a34c892e7d5db100cb"
+build_time: [1615793398, 607285000]
+inputs:
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/FloatingLabelTextField.swift": [1615791732, 370444641]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/ObservableObject/ObservableObject.swift": [1615791732, 370166680]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/Extensions/String+Extension.swift": [1615791732, 371360532]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/Extensions/TextAlignment+Extension.swift": [1615791732, 371595732]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/Extensions/UIControl+Extension.swift": [1615791732, 370916569]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/Extensions/UIResponder+Extesnion.swift": [1615791732, 371136828]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/Extensions/UITextField+Extension.swift": [1615791732, 371814235]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/TextFieldValidator/Validator.swift": [1615791732, 372700861]
+  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/FloatingLabelTextFieldSwiftUI/Sources/FloatingLabelTextFieldSwiftUI/Extensions/View+Extension.swift": [1615791732, 372154377]
