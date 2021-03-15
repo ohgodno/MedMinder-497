@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845208C225FFCC73009DB3F1 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845208C125FFCC73009DB3F1 /* Medication.swift */; };
 		8457AC8525FF3F4E005BE6EF /* FloatingLabelInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8457AC8425FF3F4E005BE6EF /* FloatingLabelInput.swift */; };
 		84FADB8925FF22C200E870C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FADB8825FF22C200E870C4 /* AppDelegate.swift */; };
 		84FADB8B25FF22C200E870C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FADB8A25FF22C200E870C4 /* SceneDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		44C7D171966B12A2C53D9CD7 /* Pods_MedMinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedMinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		573C23602659B9068B20EF45 /* Pods-MedMinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedMinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedMinder/Pods-MedMinder.release.xcconfig"; sourceTree = "<group>"; };
+		845208C125FFCC73009DB3F1 /* Medication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
 		8457AC8425FF3F4E005BE6EF /* FloatingLabelInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelInput.swift; sourceTree = "<group>"; };
 		84FADB8525FF22C200E870C4 /* MedMinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedMinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84FADB8825FF22C200E870C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				84FADB8825FF22C200E870C4 /* AppDelegate.swift */,
 				84FADB8A25FF22C200E870C4 /* SceneDelegate.swift */,
+				845208C125FFCC73009DB3F1 /* Medication.swift */,
 				84FADB8C25FF22C200E870C4 /* MedicationView.swift */,
 				84FADC0C25FF2B9000E870C4 /* AddMedication.swift */,
 				84FADC1925FF343F00E870C4 /* AccountView.swift */,
@@ -363,6 +366,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845208C225FFCC73009DB3F1 /* Medication.swift in Sources */,
 				84FADC1525FF341200E870C4 /* EditAccount.swift in Sources */,
 				84FADB8D25FF22C200E870C4 /* MedicationView.swift in Sources */,
 				8457AC8525FF3F4E005BE6EF /* FloatingLabelInput.swift in Sources */,

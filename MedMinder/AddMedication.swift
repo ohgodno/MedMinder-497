@@ -13,7 +13,6 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
     
     var selectedDosageUnits: String! = "mg"
     var dosageUnitsOptions = ["mg", "ml", "fl oz", "pills", "tablets"]
-    
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1 // number of session
     }
@@ -25,14 +24,14 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedDosageUnits = dosageUnitsOptions[row] // selected item
-        dosage.text = selectedDosageUnits + " ▼"
+        dosageUnits.text = selectedDosageUnits + " ▼"
     }
     
     func createPickerView() {
         let pickerView = UIPickerView()
         pickerView.delegate = self
-        dosage.tintColor = .clear
-        dosage.inputView = pickerView
+        dosageUnits.tintColor = .clear
+        dosageUnits.inputView = pickerView
     }
     
     func dismissPickerView() {
@@ -41,7 +40,7 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
         let button = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(self.action))
         toolBar.setItems([button], animated: true)
         toolBar.isUserInteractionEnabled = true
-        dosage.inputAccessoryView = toolBar
+        dosageUnits.inputAccessoryView = toolBar
     }
     
     @objc func action() {
@@ -52,15 +51,16 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
     @IBOutlet weak var SaveButton:       UIBarButtonItem!
     @IBOutlet weak var medicationName:   JVFloatLabeledTextField!
     @IBOutlet weak var CancelButton:     UIBarButtonItem!
-    @IBOutlet weak var dosage:           UITextField!
+    @IBOutlet weak var dosage:           JVFloatLabeledTextField!
+    @IBOutlet weak var dosageUnits:      UITextField!
     @IBOutlet weak var whenToTakeDetail: UILabel!
     @IBOutlet weak var howToTakeDetail:  UILabel!
     @IBOutlet weak var pillShapeDetail:  UILabel!
     @IBOutlet weak var pillColorDetail:  UILabel!
     @IBOutlet var refillableSwitch:      UISwitch!
     public var selectedDetailLabel:      UILabel = UILabel()
-    public var navTitleOptions:          String = ""
-    public var selectedOptions:          [String] = []
+    public var navTitleOptions:          String! = ""
+    public var selectedPillShape:        String! = ""
     public var colorsOptions:            [UIColor] = []
     public var shapesOptions:            [UIImage] = []
     public var textFieldError:           [Bool] = [false, false]
@@ -76,7 +76,12 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let nextViewController = segue.destination as? MedicationView {
-            nextViewController.newMed = ["name": medicationName.text!]
+            nextViewController.newMed = Medication(medicationName.text!,
+                                                   dosage: "\(dosage.text!) \(selectedDosageUnits!)",
+                                                   shape: selectedPillShape!,
+                                                   color: "blue",
+                                                   expiration: NSDate(),
+                                                   whenToTake: "Once per day")
         }
     }
     

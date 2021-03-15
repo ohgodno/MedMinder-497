@@ -204,7 +204,8 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="dosage" destination="2h6-nt-rZw" id="XPH-Vk-yYN"/>
+                        <outlet property="dosage" destination="Zir-kZ-u1J" id="deV-HD-9Pm"/>
+                        <outlet property="dosageUnits" destination="2h6-nt-rZw" id="zvu-qi-d1X"/>
                         <outlet property="medicationName" destination="xZE-NM-AdC" id="n71-Ow-AP8"/>
                         <segue destination="jf6-fe-9Hn" kind="unwind" identifier="saveValidMed" unwindAction="addMedSave:" id="x1w-z2-1bR"/>
                     </connections>
