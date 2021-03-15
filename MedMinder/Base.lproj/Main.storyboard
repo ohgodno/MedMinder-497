@@ -197,7 +197,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="oop-kc-asP">
                             <connections>
-                                <segue destination="jf6-fe-9Hn" kind="unwind" unwindAction="addMedSave:" id="Kgw-BC-ZAP"/>
+                                <action selector="saveMed:" destination="ClE-Vl-lqb" id="TQc-QG-Zfj"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -206,6 +206,7 @@
                     <connections>
                         <outlet property="dosage" destination="2h6-nt-rZw" id="XPH-Vk-yYN"/>
                         <outlet property="medicationName" destination="xZE-NM-AdC" id="n71-Ow-AP8"/>
+                        <segue destination="jf6-fe-9Hn" kind="unwind" identifier="saveValidMed" unwindAction="addMedSave:" id="x1w-z2-1bR"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YkB-aZ-5pJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -222,7 +223,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="Zgv-og-zyr" kind="relationship" relationship="rootViewController" id="Qd5-wr-tBu"/>
+                        <segue destination="Zgv-og-zyr" kind="relationship" relationship="rootViewController" destinationCreationSelector="addMedSave" id="Qd5-wr-tBu"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="usS-dR-k5V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -393,7 +394,8 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="vNI-Qd-NFm">
                             <connections>
-                                <segue destination="d0d-EZ-6h4" kind="unwind" unwindAction="accountEditSave:" id="7qQ-cu-rvJ"/>
+                                <action selector="saveMed:" destination="d0d-EZ-6h4" id="SMZ-fL-sHG"/>
+                                <segue destination="d0d-EZ-6h4" kind="unwind" unwindAction="accountEditSave:" id="VGe-3L-SEp"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

@@ -65,12 +65,18 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
     public var shapesOptions:            [UIImage] = []
     public var textFieldError:           [Bool] = [false, false]
     
-    @IBAction func saveMed(sender: AnyObject) {
+    @IBAction func saveMed(_ sender: Any) {
         if (checkAllFields()){
             print(":)")
-            self.performSegue(withIdentifier: "addMedSave", sender: self.presentingViewController)
+            performSegue(withIdentifier: "saveValidMed", sender: nil)
         } else {
             print(":(")
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let nextViewController = segue.destination as? MedicationView {
+            nextViewController.newMed = ["name": medicationName.text!]
         }
     }
     
@@ -85,7 +91,7 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
     public func checkAllFields() -> Bool {
             let boxes = [medicationName, dosage]
             let detailLabels = [whenToTakeDetail, howToTakeDetail, pillShapeDetail, pillColorDetail]
-            var goodBoxes:[Bool] = [false]
+            var goodBoxes:[Bool] = [true]
 //            for i in 0..<2 {
 //                if (boxes[i]?.text == nil || boxes[i].text == "") {
 //                    boxes[i].setError(self.errorWithLocalizedDescription("Please fill in this box"), animated: true)

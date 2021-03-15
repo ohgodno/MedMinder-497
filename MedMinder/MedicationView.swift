@@ -10,8 +10,11 @@ import UIKit
 
 class MedicationView: UITableViewController {
     
+    public var newMed = [String:String]()
+    
     @IBAction func addMedSave(_ segue:UIStoryboardSegue){
         print("addMedSave from addMedication")
+        print(newMed)
     }
     
     @IBAction func addMedCancel(_ segue:UIStoryboardSegue){
