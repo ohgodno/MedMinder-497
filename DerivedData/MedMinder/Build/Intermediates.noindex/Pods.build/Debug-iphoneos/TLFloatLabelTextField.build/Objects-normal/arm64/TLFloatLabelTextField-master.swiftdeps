@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "6bbb4f4101bd610c32984d26bb4826ec"
-build_time: [1615793398, 605282000]
-inputs:
-  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/TLFloatLabelTextField/TLFloatLabelTextField/Classes/TLFloatLabelTextField.swift": [1615792868, 772147056]
-  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/TLFloatLabelTextField/TLFloatLabelTextField/Classes/TLFloatLabelTextView.swift": [1615792868, 771929587]

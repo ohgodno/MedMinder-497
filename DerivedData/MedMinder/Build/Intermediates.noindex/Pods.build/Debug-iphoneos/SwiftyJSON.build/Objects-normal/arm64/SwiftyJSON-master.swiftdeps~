@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "34e21a9fb52694b4fbffe395b1b90c8d"
-build_time: [1615792912, 840105000]
-inputs:
-  "/Users/Admin/Desktop/EECS497/MedMinder/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1615784970, 583115771]
