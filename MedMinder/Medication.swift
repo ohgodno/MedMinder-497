@@ -8,16 +8,16 @@ import Foundation
 import SwiftyJSON
 import Alamofire
 
-public struct Medication {
+public class Medication: NSObject, NSCoding {
     
     var NAME: String!
     var DOSAGE: String!
     var EXPIRATION: NSDate
     var WHENTOTAKE: String
-    var COLOR: String!
-    var SHAPE: String!
-    var COLOR_CODE: String!
-    var SHAPE_CODE: String!
+    var COLOR: String
+    var SHAPE: String
+    var COLOR_CODE: String
+    var SHAPE_CODE: String
     var NDC: Int
     var RXCUI: Int
     
@@ -56,20 +56,50 @@ public struct Medication {
             "gray":"C48324",
             "black":"C48323", "":""]
         func getRXCUI() -> Int {
-            return 0
+            return 1
         }
         func getNDC() -> Int {
-            return 0
+            return 2
         }
         self.NAME       = name
         self.DOSAGE     = dosage
         self.COLOR      = color.lowercased()
         self.SHAPE      = shape.lowercased()
-        self.COLOR_CODE = colorCodes[color.lowercased()]
-        self.SHAPE_CODE = shapeCodes[shape.lowercased()]
+        self.COLOR_CODE = colorCodes[color.lowercased()]!
+        self.SHAPE_CODE = shapeCodes[shape.lowercased()]!
         self.EXPIRATION = expiration
         self.WHENTOTAKE = whenToTake
         self.NDC        = getNDC()
         self.RXCUI      = getRXCUI()
+        print("NDC: \(self.NDC)")
+        print("RXCUI: \(self.RXCUI)")
     }
+    
+    public required init(coder decoder: NSCoder) {
+        NAME       = decoder.decodeObject(forKey: "NAME") as? String
+        DOSAGE     = decoder.decodeObject(forKey: "DOSAGE") as? String
+        COLOR      = decoder.decodeObject(forKey: "COLOR") as! String
+        SHAPE      = decoder.decodeObject(forKey: "SHAPE") as! String
+        COLOR_CODE = decoder.decodeObject(forKey: "COLOR_CODE") as! String
+        SHAPE_CODE = decoder.decodeObject(forKey: "SHAPE_CODE") as! String
+        EXPIRATION = decoder.decodeObject(forKey: "EXPIRATION") as! NSDate
+        WHENTOTAKE = decoder.decodeObject(forKey: "WHENTOTAKE") as! String
+        NDC        = decoder.decodeInteger(forKey: "NDC")
+        RXCUI      = decoder.decodeInteger(forKey: "RXCUI")
+    }
+    
+    public func encode(with coder: NSCoder) {
+        coder.encode(self.NAME,       forKey: "NAME")
+        coder.encode(self.DOSAGE,     forKey: "DOSAGE")
+        coder.encode(self.COLOR,      forKey: "COLOR")
+        coder.encode(self.SHAPE,      forKey: "SHAPE")
+        coder.encode(self.COLOR_CODE, forKey: "COLOR_CODE")
+        coder.encode(self.SHAPE_CODE, forKey: "SHAPE_CODE")
+        coder.encode(self.EXPIRATION, forKey: "EXPIRATION")
+        coder.encode(self.WHENTOTAKE, forKey: "WHENTOTAKE")
+        coder.encode(self.NDC,        forKey: "NDC")
+        coder.encode(self.RXCUI,      forKey: "RXCUI")
+    }
+    
+    
 }

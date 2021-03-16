@@ -11,40 +11,76 @@ import JVFloatLabeledTextField
 
 class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     
+    var selectedWhenToTakeUnits: String! = "hours"
+    var whenToTakeOptions = ["minutes", "hours", "days", "weeks", "months"]
     var selectedDosageUnits: String! = "mg"
     var dosageUnitsOptions = ["mg", "ml", "fl oz", "pills", "tablets"]
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1 // number of session
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return dosageUnitsOptions.count // number of dropdown items
+        if pickerView.tag == 1 {
+            return dosageUnitsOptions.count // number of dropdown items
+        } else if pickerView.tag == 2 {
+            return whenToTakeOptions.count
+        }
+        return 5
     }
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return dosageUnitsOptions[row] // dropdown item
+        if pickerView.tag == 1 {
+            return dosageUnitsOptions[row]
+        } else if pickerView.tag == 2 {
+            return whenToTakeOptions[row]
+        }
+        return ":["
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        selectedDosageUnits = dosageUnitsOptions[row] // selected item
-        dosageUnits.text = selectedDosageUnits + " ▼"
+        if pickerView.tag == 1 {
+            selectedDosageUnits = dosageUnitsOptions[row] // selected item
+            dosageUnits.text = selectedDosageUnits + " ▼"
+        } else if pickerView.tag == 2 {
+            selectedWhenToTakeUnits = whenToTakeOptions[row]
+            whenToTakeUnits.text = selectedWhenToTakeUnits + " ▼"
+        }
+        
     }
     
-    func createPickerView() {
+    func createPickerView(tagNum: Int) {
         let pickerView = UIPickerView()
         pickerView.delegate = self
-        dosageUnits.tintColor = .clear
-        dosageUnits.inputView = pickerView
+        pickerView.tag = tagNum
+        if tagNum == 1 {
+            dosageUnits.tintColor = .clear
+            dosageUnits.inputView = pickerView
+        } else if tagNum == 2 {
+            whenToTakeUnits.tintColor = .clear
+            whenToTakeUnits.inputView = pickerView
+        }
     }
     
-    func dismissPickerView() {
+    func dismissPickerView(tagNum: Int) {
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
         let button = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(self.action))
         toolBar.setItems([button], animated: true)
         toolBar.isUserInteractionEnabled = true
-        dosageUnits.inputAccessoryView = toolBar
+        if tagNum == 1 {
+            dosageUnits.inputAccessoryView = toolBar
+        } else if tagNum == 2 {
+            whenToTakeUnits.inputAccessoryView = toolBar
+        }
+        
     }
     
     @objc func action() {
         view.endEditing(true)
+    }
+    
+    
+    @IBAction func medicationNameEditingEnd(_ sender: Any) {
+        // Make Alamofire requests
+        // Parse using SwiftyJSON
+        // Get Spelling suggestions from https://rxnav.nlm.nih.gov/api-RxNorm.getSpellingSuggestions.html
     }
     
     @IBOutlet var table:                 UITableView!
@@ -53,7 +89,8 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
     @IBOutlet weak var CancelButton:     UIBarButtonItem!
     @IBOutlet weak var dosage:           JVFloatLabeledTextField!
     @IBOutlet weak var dosageUnits:      UITextField!
-    @IBOutlet weak var whenToTakeDetail: UILabel!
+    @IBOutlet weak var whenToTake: JVFloatLabeledTextField!
+    @IBOutlet weak var whenToTakeUnits: UITextField!
     @IBOutlet weak var howToTakeDetail:  UILabel!
     @IBOutlet weak var pillShapeDetail:  UILabel!
     @IBOutlet weak var pillColorDetail:  UILabel!
@@ -81,22 +118,24 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
                                                    shape: selectedPillShape!,
                                                    color: "blue",
                                                    expiration: NSDate(),
-                                                   whenToTake: "Once per day")
+                                                   whenToTake: "\(whenToTake.text!) \(selectedWhenToTakeUnits!)")
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        createPickerView()
-        dismissPickerView()
+        createPickerView(tagNum:1)
+        createPickerView(tagNum:2)
+        dismissPickerView(tagNum:1)
+        dismissPickerView(tagNum:2)
     }
 
     
     public func checkAllFields() -> Bool {
-            let boxes = [medicationName, dosage]
-            let detailLabels = [whenToTakeDetail, howToTakeDetail, pillShapeDetail, pillColorDetail]
-            var goodBoxes:[Bool] = [true]
+//            let boxes = [medicationName, dosage]
+//            let detailLabels = [whenToTakeDetail, howToTakeDetail, pillShapeDetail, pillColorDetail]
+//            var goodBoxes:[Bool] = [true]
 //            for i in 0..<2 {
 //                if (boxes[i]?.text == nil || boxes[i].text == "") {
 //                    boxes[i].setError(self.errorWithLocalizedDescription("Please fill in this box"), animated: true)
@@ -122,7 +161,7 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
 //                    goodBoxes.append(true)
 //                }
 //            }
-            return !goodBoxes.contains(false)
+            return true //!goodBoxes.contains(false)
         }
 
 }
