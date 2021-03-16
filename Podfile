@@ -7,4 +7,5 @@ target 'MedMinder' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'SwiftyJSON'
+  pod 'SwiftyButton'
 end
