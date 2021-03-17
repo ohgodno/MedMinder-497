@@ -329,10 +329,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bim-70-QwG">
-                                <rect key="frame" x="57" y="499" width="300" height="170"/>
+                                <rect key="frame" x="57" y="499" width="300" height="110"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdA-go-VLs" customClass="FlatButton" customModule="SwiftyButton">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdA-go-VLs" customClass="FlatButton" customModule="SwiftyButton">
+                                        <rect key="frame" x="0.0" y="-50" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="yAL-ak-H7k"/>
                                         </constraints>
@@ -351,7 +351,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4Q-Bt-ZZW" customClass="FlatButton" customModule="SwiftyButton">
-                                        <rect key="frame" x="0.0" y="60" width="300" height="50"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="gcg-PO-HmZ"/>
                                         </constraints>
@@ -373,7 +373,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0U-hq-P8G" customClass="FlatButton" customModule="SwiftyButton">
-                                        <rect key="frame" x="0.0" y="120" width="300" height="50"/>
+                                        <rect key="frame" x="0.0" y="60" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="n6l-wO-V3X"/>
                                         </constraints>
@@ -619,9 +619,11 @@
                                                     <state key="normal" title="Delete account">
                                                         <color key="titleColor" systemColor="systemRedColor"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="d0d-EZ-6h4" kind="unwind" unwindAction="accountEditCancel:" id="2Ad-4v-2Ur"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="yb3-R7-nWe" secondAttribute="bottom" id="IKN-ke-SOf"/>
                                                 <constraint firstItem="yb3-R7-nWe" firstAttribute="leading" secondItem="zn3-tE-j8n" secondAttribute="leading" constant="20" id="K4j-Td-B4g"/>
