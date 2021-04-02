@@ -111,7 +111,16 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
         }
     }
     
+    
+    func addToDatabase(medName: String) {
+        var ref: DatabaseReference!
+        ref = Database.database().reference()
+        let newMedKey = ref.childByAutoId().key ?? "";
+        ref.child("Users").child("Simran Malik").child("Medications").child(newMedKey).setValue(["Medication": medicationName.text])
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        addToDatabase(medName: medicationName.text!)
         if let nextViewController = segue.destination as? MedicationView {
             nextViewController.newMed = Medication(medicationName.text!,
                                                    dosage: "\(dosage.text!) \(selectedDosageUnits!)",
