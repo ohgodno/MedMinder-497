@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 import JVFloatLabeledTextField
+import FirebaseDatabase
 
 class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     
@@ -42,7 +43,6 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
             selectedWhenToTakeUnits = whenToTakeOptions[row]
             whenToTakeUnits.text = selectedWhenToTakeUnits + " ▼"
         }
-        
     }
     
     func createPickerView(tagNum: Int) {
@@ -69,7 +69,6 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
         } else if tagNum == 2 {
             whenToTakeUnits.inputAccessoryView = toolBar
         }
-        
     }
     
     @objc func action() {
