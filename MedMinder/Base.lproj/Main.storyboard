@@ -733,14 +733,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <textView key="tableFooterView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="oF6-yO-QWR">
-                            <rect key="frame" x="0.0" y="99.5" width="414" height="274"/>
+                        <textField key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="lNp-J0-vkh" customClass="JVFloatLabeledTextField">
+                            <rect key="frame" x="0.0" y="99.5" width="414" height="34"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            <color key="textColor" systemColor="labelColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                        </textView>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pZH-pW-gU7">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
@@ -749,7 +747,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Today's Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lzq-hD-YHU">
+                                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Today's Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lzq-hD-YHU" customClass="JVFloatLabeledTextField">
                                             <rect key="frame" x="30" y="4" width="354" height="34"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="tintColor" systemColor="secondarySystemBackgroundColor"/>
@@ -828,6 +826,9 @@
         <designable name="HwU-ma-Hxm">
             <size key="intrinsicContentSize" width="140" height="34"/>
         </designable>
+        <designable name="Lzq-hD-YHU">
+            <size key="intrinsicContentSize" width="112" height="34"/>
+        </designable>
         <designable name="Qx9-hZ-Vjf">
             <size key="intrinsicContentSize" width="94" height="34"/>
         </designable>
@@ -848,6 +849,9 @@
         </designable>
         <designable name="fdA-go-VLs">
             <size key="intrinsicContentSize" width="200" height="36"/>
+        </designable>
+        <designable name="lNp-J0-vkh">
+            <size key="intrinsicContentSize" width="32" height="34"/>
         </designable>
         <designable name="n7I-XM-fRb">
             <size key="intrinsicContentSize" width="113.5" height="34"/>

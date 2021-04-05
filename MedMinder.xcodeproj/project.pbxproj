@@ -22,6 +22,9 @@
 		84FADC1A25FF343F00E870C4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FADC1925FF343F00E870C4 /* AccountView.swift */; };
 		8EA15F23B93F593F31EEE67B /* Pods_MedMinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44C7D171966B12A2C53D9CD7 /* Pods_MedMinder.framework */; };
 		9013C9B8261A35DB00397160 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9013C9B7261A35DB00397160 /* GoogleService-Info.plist */; };
+		9013C9D1261B910A00397160 /* MedLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013C9D0261B910A00397160 /* MedLogs.swift */; };
+		9013C9D6261B923500397160 /* AddMedLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013C9D5261B923500397160 /* AddMedLog.swift */; };
+		9013C9DB261B943800397160 /* MedLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9013C9DA261B943800397160 /* MedLogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		84FADC1925FF343F00E870C4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		890274C09C014D1F654B46BA /* Pods-MedMinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedMinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedMinder/Pods-MedMinder.debug.xcconfig"; sourceTree = "<group>"; };
 		9013C9B7261A35DB00397160 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9013C9D0261B910A00397160 /* MedLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedLogs.swift; sourceTree = "<group>"; };
+		9013C9D5261B923500397160 /* AddMedLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMedLog.swift; sourceTree = "<group>"; };
+		9013C9DA261B943800397160 /* MedLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedLogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,9 @@
 				84FADB9125FF22C400E870C4 /* Assets.xcassets */,
 				84FADB9325FF22C400E870C4 /* LaunchScreen.storyboard */,
 				84FADB9625FF22C400E870C4 /* Info.plist */,
+				9013C9D0261B910A00397160 /* MedLogs.swift */,
+				9013C9D5261B923500397160 /* AddMedLog.swift */,
+				9013C9DA261B943800397160 /* MedLogView.swift */,
 			);
 			path = MedMinder;
 			sourceTree = "<group>";
@@ -378,8 +387,11 @@
 				8457AC8525FF3F4E005BE6EF /* FloatingLabelInput.swift in Sources */,
 				84FADC0D25FF2B9000E870C4 /* AddMedication.swift in Sources */,
 				84FADB8925FF22C200E870C4 /* AppDelegate.swift in Sources */,
+				9013C9D1261B910A00397160 /* MedLogs.swift in Sources */,
+				9013C9D6261B923500397160 /* AddMedLog.swift in Sources */,
 				84FADB8B25FF22C200E870C4 /* SceneDelegate.swift in Sources */,
 				84FADC1A25FF343F00E870C4 /* AccountView.swift in Sources */,
+				9013C9DB261B943800397160 /* MedLogView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
