@@ -51,7 +51,7 @@ class MedLogView: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MedicationCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MedLogCell", for: indexPath)
 
         cell.textLabel?.text = logList[indexPath.row].DATE
         cell.detailTextLabel?.text = logList[indexPath.row].DATE
