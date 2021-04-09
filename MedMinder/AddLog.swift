@@ -17,9 +17,9 @@ class AddLog: UITableViewController, UITextFieldDelegate {
     
     @IBOutlet weak var SaveBut: UIBarButtonItem!
     @IBOutlet weak var CancelBut: UIBarButtonItem!
-    @IBOutlet weak var TodaysDate: UITableViewCell!
+    weak var TodaysDate: JVFloatLabeledTextField!
     @IBOutlet var table: UITableView!
-    @IBOutlet weak var TodaysEntry: UITableViewCell!
+    weak var TodaysEntry: JVFloatLabeledTextField!
     
     @IBAction func saveLog(_ sender: Any) {
         performSegue(withIdentifier: "saveValidLog", sender: nil)
