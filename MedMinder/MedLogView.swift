@@ -39,7 +39,8 @@ class MedLogView: UITableViewController {
     }
     
     @IBAction func addLogCancel(_ segue:UIStoryboardSegue){
-        print("addLogCancel from addLog")
+        print("addLogCancel from addMedLog")
+        dismiss(animated: true, completion: nil)
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {

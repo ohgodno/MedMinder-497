@@ -32,6 +32,10 @@ class AddMedLog: UITableViewController, UITextFieldDelegate {
         }
     }
     
+    @IBAction func cancelEntry(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let nextViewController = segue.destination as? MedLogView {
             nextViewController.newLog = MedLogs(TodaysDate.text!, entry: TodaysEntry.text!)

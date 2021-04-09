@@ -665,7 +665,7 @@
         <!--Medical Logs-->
         <scene sceneID="mo5-pL-zwM">
             <objects>
-                <tableViewController id="jmu-hw-NuE" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="fullScreen" id="jmu-hw-NuE" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="VS5-rR-Glv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -705,7 +705,7 @@
                     <navigationItem key="navigationItem" title="Medical Logs" id="XbO-60-eOJ">
                         <barButtonItem key="rightBarButtonItem" title="Add" style="plain" id="bBH-GM-B7z">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="GM2-XI-8cM">
-                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <rect key="frame" x="310" y="7" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="              Add"/>
                                 <connections>
@@ -714,9 +714,6 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <connections>
-                                <segue destination="w9E-fp-HAK" kind="show" id="fHh-jc-XRZ"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -725,10 +722,10 @@
             </objects>
             <point key="canvasLocation" x="957.97101449275374" y="293.97321428571428"/>
         </scene>
-        <!--Add New Entry-->
+        <!--Add Med Log-->
         <scene sceneID="zH0-VW-hI3">
             <objects>
-                <tableViewController id="OoC-zZ-DdS" sceneMemberID="viewController">
+                <tableViewController title="Add Med Log" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OoC-zZ-DdS" customClass="AddMedLog" customModule="MedMinder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZEU-Au-g9G">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -769,6 +766,10 @@
                                 <rect key="frame" x="20" y="13" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cancel        "/>
+                                <connections>
+                                    <action selector="cancelEntry:" destination="OoC-zZ-DdS" eventType="touchUpInside" id="XTr-lf-7wL"/>
+                                    <segue destination="RmZ-4r-gJs" kind="show" identifier="MedLogReturn" id="ofY-wO-bJ9"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Save" style="plain" id="c9M-sf-36c">
@@ -806,6 +807,7 @@
             <objects>
                 <navigationController id="RmZ-4r-gJs" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Medical Logs" image="book" catalog="system" selectedImage="book" id="9ow-OQ-qCH"/>
+                    <navigationItem key="navigationItem" id="6Lg-NG-RUe"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IRg-qp-1YK">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -864,7 +866,7 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="EeS-DH-nVq"/>
+        <segue reference="QrS-3z-dPC"/>
         <segue reference="1aj-Pk-yhw"/>
         <segue reference="RJA-1j-ZmK"/>
     </inferredMetricsTieBreakers>
