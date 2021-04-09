@@ -1,22 +1,18 @@
 //
-//  MedLogs.swift
+//  MedLog.swift
 //  MedMinder
 //
-//  Created by Simran on 4/5/21.
+//  Created by Simran on 4/9/21.
 //
 import Foundation
 import SwiftyJSON
 import Alamofire
 
-public class MedLogs: NSObject, NSCoding {
-    
+public class MedLog: NSObject, NSCoding {
     var DATE: String!
     var ENTRY: String!
     
-    init(_ date: String, entry: String) {
-        func getRXCUI() -> Int {
-            return 1
-        }
+    init(_ date: String, entry: String){
         self.DATE       = date
         self.ENTRY     = entry
     }
@@ -31,4 +27,3 @@ public class MedLogs: NSObject, NSCoding {
         coder.encode(self.ENTRY,     forKey: "ENTRY")
     }
 }
-

@@ -2,45 +2,44 @@
 //  ViewController.swift
 //  MedMinder
 //
-//  Created by Harr on 3/15/21.
+//  Created by Simran on 4/9/21.
 //
 
 import Foundation
 import UIKit
 
-class MedLogView: UITableViewController {
+class LogView: UITableViewController {
     
-    public var newLog = MedLogs("", entry: "")
+    public var newLog = MedLog("", entry: "")
     
-    public var logList = [MedLogs]()
+    public var logList = [MedLog]()
     
-    public class func saveMedLogsList(_ value: [MedLogs]) {
+    public class func saveLogList(_ value: [MedLog]) {
         print(value)
         if let savedData = try? NSKeyedArchiver.archivedData(withRootObject: value, requiringSecureCoding: false) {
             UserDefaults.standard.set(savedData, forKey: "logList")
         }
     }
 
-    public class func loadMedLogsList() -> [MedLogs] {
-        if let medLogData = UserDefaults.standard.object(forKey: "logList") as? Data {
-            if let logList = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(medLogData) as? [MedLogs] {
+    public class func loadLogList() -> [MedLog] {
+        if let logData = UserDefaults.standard.object(forKey: "logList") as? Data {
+            if let logList = try? NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(logData) as? [MedLog] {
                 return logList
             }
         }
-        return [MedLogs]()
+        return [MedLog]()
     }
     
     @IBAction func addLogSave(_ segue:UIStoryboardSegue){
-        print("addLogSave from addMedLog")
+        print("addLogSave from addLog")
         print("newLog: \(dump(newLog))")
         logList.append(newLog)
-        MedLogView.saveMedLogsList(logList)
+        LogView.saveLogList(logList)
         tableView.reloadData()
     }
     
     @IBAction func addLogCancel(_ segue:UIStoryboardSegue){
-        print("addLogCancel from addMedLog")
-        dismiss(animated: true, completion: nil)
+        print("addLogCancel from AddLog")
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -52,22 +51,22 @@ class MedLogView: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MedLogCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "logCell", for: indexPath)
 
         cell.textLabel?.text = logList[indexPath.row].DATE
-        cell.detailTextLabel?.text = logList[indexPath.row].DATE
+        cell.detailTextLabel?.text = logList[indexPath.row].ENTRY
         return cell
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        logList = MedLogView.loadMedLogsList()
+        logList = LogView.loadLogList()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
 }
 
 
