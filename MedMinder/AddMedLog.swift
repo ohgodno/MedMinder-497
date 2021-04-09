@@ -23,13 +23,12 @@ class AddMedLog: UITableViewController, UITextFieldDelegate {
     @IBOutlet weak var TodaysEntry:           JVFloatLabeledTextField!
     public var textFieldError:           [Bool] = [false, false]
     
-    @IBAction func saveLog(_ sender: Any) {
-        if (checkAllFields()){
-            print(":)")
-            performSegue(withIdentifier: "saveMedLog", sender: nil)
-        } else {
-            print(":(")
-        }
+    @IBAction func saveTheLog(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func saveMedicalLog(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func cancelEntry(_ sender: Any) {

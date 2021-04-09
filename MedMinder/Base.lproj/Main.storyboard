@@ -667,7 +667,7 @@
             <objects>
                 <tableViewController modalPresentationStyle="fullScreen" id="jmu-hw-NuE" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="VS5-rR-Glv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -705,7 +705,7 @@
                     <navigationItem key="navigationItem" title="Medical Logs" id="XbO-60-eOJ">
                         <barButtonItem key="rightBarButtonItem" title="Add" style="plain" id="bBH-GM-B7z">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="GM2-XI-8cM">
-                                <rect key="frame" x="310" y="7" width="84" height="30"/>
+                                <rect key="frame" x="310" y="13" width="84" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="              Add"/>
                                 <connections>
@@ -777,7 +777,14 @@
                                 <rect key="frame" x="302" y="13" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="          Save"/>
+                                <connections>
+                                    <action selector="saveMedicalLog:" destination="OoC-zZ-DdS" eventType="touchUpInside" id="tgK-es-m6u"/>
+                                </connections>
                             </button>
+                            <connections>
+                                <action selector="saveTheLog:" destination="OoC-zZ-DdS" id="5G0-6B-FJL"/>
+                                <segue destination="RmZ-4r-gJs" kind="show" identifier="savetheLog" id="7Yi-D7-PE8"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
@@ -809,7 +816,7 @@
                     <tabBarItem key="tabBarItem" title="Medical Logs" image="book" catalog="system" selectedImage="book" id="9ow-OQ-qCH"/>
                     <navigationItem key="navigationItem" id="6Lg-NG-RUe"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IRg-qp-1YK">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -866,9 +873,9 @@
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="QrS-3z-dPC"/>
+        <segue reference="ofY-wO-bJ9"/>
         <segue reference="1aj-Pk-yhw"/>
-        <segue reference="RJA-1j-ZmK"/>
+        <segue reference="l8f-Y7-fhC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book" catalog="system" width="128" height="102"/>
