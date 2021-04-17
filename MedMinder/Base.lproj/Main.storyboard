@@ -531,52 +531,38 @@
         <scene sceneID="1Xf-FR-BEe">
             <objects>
                 <tableViewController id="UTu-bA-dU0" customClass="AddLog" customModule="MedMinder" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NTM-hV-axB">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NTM-hV-axB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="VQ3-aS-fAy">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VQ3-aS-fAy" id="d4C-Al-GYV">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Today's Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dnm-th-5Bp" customClass="JVFloatLabeledTextField" customModule="MedMinder" customModuleProvider="target">
-                                            <rect key="frame" x="48" y="4" width="321" height="34"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                            <connections>
-                                                <action selector="TodaysDate:" destination="UTu-bA-dU0" eventType="editingDidEnd" id="NiK-or-JkY"/>
-                                            </connections>
-                                        </textField>
-                                    </subviews>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                </tableViewCellContentView>
-                                <accessibility key="accessibilityConfiguration">
-                                    <bool key="isElement" value="YES"/>
-                                </accessibility>
-                            </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="45" id="nr8-NV-PUS">
-                                <rect key="frame" x="0.0" y="71.5" width="414" height="45"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nr8-NV-PUS" id="Rnw-89-h47">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Entry" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HXb-v9-Xdu" customClass="JVFloatLabeledTextField" customModule="MedMinder" customModuleProvider="target">
-                                            <rect key="frame" x="48" y="6" width="322" height="34"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
-                                    </subviews>
-                                    <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection headerTitle="Medical Log Entry" id="Mgq-5N-0CU">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="156" id="Kb0-OK-zDS">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="156"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kb0-OK-zDS" id="pPe-oJ-JpT">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="156"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZEo-u7-kHQ">
+                                                    <rect key="frame" x="28" y="1" width="358" height="34"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Entry" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QgU-Or-fQq">
+                                                    <rect key="frame" x="28" y="61" width="364" height="84"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="UTu-bA-dU0" id="dU7-IR-dDA"/>
                             <outlet property="delegate" destination="UTu-bA-dU0" id="9da-Oc-yLu"/>
@@ -609,6 +595,8 @@
                     </navigationItem>
                     <connections>
                         <outlet property="SaveBut" destination="Tvh-L6-LUQ" id="IIa-0t-gDa"/>
+                        <outlet property="TodaysDate" destination="ZEo-u7-kHQ" id="dQo-QB-bAS"/>
+                        <outlet property="TodaysEntry" destination="QgU-Or-fQq" id="DNl-1K-zaK"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aoc-Jc-qQx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -857,46 +845,40 @@
     </scenes>
     <designables>
         <designable name="2M7-9k-mWe">
-            <size key="intrinsicContentSize" width="134" height="48.5"/>
-        </designable>
-        <designable name="HXb-v9-Xdu">
-            <size key="intrinsicContentSize" width="62" height="34"/>
+            <size key="intrinsicContentSize" width="134" height="34"/>
         </designable>
         <designable name="HwU-ma-Hxm">
-            <size key="intrinsicContentSize" width="140" height="48.5"/>
+            <size key="intrinsicContentSize" width="140" height="34"/>
         </designable>
         <designable name="Qx9-hZ-Vjf">
-            <size key="intrinsicContentSize" width="94" height="46"/>
+            <size key="intrinsicContentSize" width="94" height="34"/>
         </designable>
         <designable name="Zir-kZ-u1J">
-            <size key="intrinsicContentSize" width="77.5" height="46"/>
+            <size key="intrinsicContentSize" width="77.5" height="34"/>
         </designable>
         <designable name="a06-P8-81A">
-            <size key="intrinsicContentSize" width="106.5" height="48.5"/>
+            <size key="intrinsicContentSize" width="106.5" height="34"/>
         </designable>
         <designable name="c0U-hq-P8G">
             <size key="intrinsicContentSize" width="183" height="36"/>
-        </designable>
-        <designable name="dnm-th-5Bp">
-            <size key="intrinsicContentSize" width="112" height="34"/>
         </designable>
         <designable name="e4Q-Bt-ZZW">
             <size key="intrinsicContentSize" width="208.5" height="36"/>
         </designable>
         <designable name="eyC-zD-UTX">
-            <size key="intrinsicContentSize" width="190" height="48.5"/>
+            <size key="intrinsicContentSize" width="190" height="34"/>
         </designable>
         <designable name="fdA-go-VLs">
             <size key="intrinsicContentSize" width="200" height="36"/>
         </designable>
         <designable name="n7I-XM-fRb">
-            <size key="intrinsicContentSize" width="113.5" height="46"/>
+            <size key="intrinsicContentSize" width="113.5" height="34"/>
         </designable>
         <designable name="ulg-zi-c68">
-            <size key="intrinsicContentSize" width="132.5" height="48.5"/>
+            <size key="intrinsicContentSize" width="132.5" height="34"/>
         </designable>
         <designable name="xZE-NM-AdC">
-            <size key="intrinsicContentSize" width="141" height="46"/>
+            <size key="intrinsicContentSize" width="141" height="34"/>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>

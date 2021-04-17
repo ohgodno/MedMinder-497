@@ -15,11 +15,15 @@ class AddLog: UITableViewController, UITextFieldDelegate {
         view.endEditing(true)
     }
     
+
+
+
+    @IBOutlet weak var TodaysDate: UITextField!
     @IBOutlet weak var SaveBut: UIBarButtonItem!
+    @IBOutlet weak var TodaysEntry: UITextField!
     @IBOutlet weak var CancelBut: UIBarButtonItem!
-    weak var TodaysDate: JVFloatLabeledTextField!
     @IBOutlet var table: UITableView!
-    weak var TodaysEntry: JVFloatLabeledTextField!
+
     
     @IBAction func saveLog(_ sender: Any) {
         performSegue(withIdentifier: "saveValidLog", sender: nil)
@@ -27,7 +31,7 @@ class AddLog: UITableViewController, UITextFieldDelegate {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let nextViewController = segue.destination as? LogView {
-            nextViewController.newLog = MedLog("june 3rd", entry: "stomachaches")
+            nextViewController.newLog = MedLog(TodaysDate.text!, entry: TodaysEntry.text!)
         }
     }
     
