@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>685079380045-5skuakgrq8c6tv4vpjqqard1ilgfahi2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.685079380045-5skuakgrq8c6tv4vpjqqard1ilgfahi2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAcrOF0-7EAaByxXAkaRtbp7_jL_hbpAw8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>685079380045</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>eecs497medminder.app</string>
+	<key>PROJECT_ID</key>
+	<string>medminder-497</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medminder-497.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:685079380045:ios:63fd711eaa7736e7e8dc04</string>
+	<key>DATABASE_URL</key>
+	<string>https://medminder-497-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
