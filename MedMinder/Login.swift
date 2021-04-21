@@ -32,7 +32,14 @@ class Login: UIViewController {
             Signup.fname = UserDefaults.standard.string(forKey: "fname") ?? "error"
             Signup.lname = UserDefaults.standard.string(forKey: "lname") ?? "error"
             Signup.choppedEmail = UserDefaults.standard.string(forKey: "choppedEmail") ?? "error"
-            Signup.uname = UserDefaults.standard.string(forKey: "uname") ?? "error"
+            
+            database.child(Signup.choppedEmail).observeSingleEvent(of: .value, with: { snapshot in
+                let value = snapshot.value as? NSDictionary
+                let username = value?["Name"] as? String ?? ""
+                
+                Signup.uname = username
+            })
+            
             performSegue(withIdentifier: "loginSegue", sender: nil)
         }
     }
@@ -72,6 +79,8 @@ class Login: UIViewController {
             
             Signup.uname = username
         })
+        
+        UserDefaults.standard.set(Signup.choppedEmail, forKey: "choppedEmail")
         
         
         performSegue(withIdentifier: "loginSegue", sender: nil)
