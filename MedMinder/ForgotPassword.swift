@@ -7,14 +7,19 @@
 
 import UIKit
 import FirebaseAuth
-class ForgotPassword: UIViewController {
+class ForgotPassword: UIViewController, UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+           view.endEditing(true)
+           return true
+    }
 
     
     @IBOutlet weak var emailAddress: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        emailAddress.delegate = self
         // Do any additional setup after loading the view.
     }
     

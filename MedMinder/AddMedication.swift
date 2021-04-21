@@ -10,9 +10,9 @@ import UIKit
 import JVFloatLabeledTextField
 import FirebaseDatabase
 
-class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
+class AddMedication: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     
-    var selectedWhenToTakeUnits: String! = "hours"
+    var selectedWhenToTakeUnits: String! = "minutes"
     var whenToTakeOptions = ["minutes", "hours", "days", "weeks", "months"]
     var selectedDosageUnits: String! = "mg"
     var dosageUnitsOptions = ["mg", "ml", "fl oz", "pills", "tablets"]
@@ -97,7 +97,10 @@ class AddMedication: UITableViewController, UIPickerViewDelegate, UIPickerViewDa
         var ref: DatabaseReference!
         ref = Database.database().reference()
         let newMedKey = ref.childByAutoId().key ?? "";
-        ref.child(Signup.choppedEmail).child(Signup.fname+" " + Signup.lname).child("Medications").child(newMedKey).setValue(["Medication": medicationName.text])
+        print(medicationName.text!)
+        print(Signup.choppedEmail)
+        print(Signup.fname+" " + Signup.lname)
+        ref.child(Signup.choppedEmail).child(Signup.fname+" " + Signup.lname).child("Medications").child(newMedKey).setValue(["Medication": medicationName.text!])
     }
     
     

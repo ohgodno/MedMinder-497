@@ -16,7 +16,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
-            landmarkName = "addMedSave(_:)"
+            landmarkName = "saveMedicationList(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

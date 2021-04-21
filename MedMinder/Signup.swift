@@ -8,26 +8,40 @@ import FirebaseDatabase
 import UIKit
 import FirebaseAuth
 
-class Signup: UIViewController {
+class Signup: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var emailAddress: UITextField!
     
     @IBOutlet weak var passWord: UITextField!
     
-    @IBOutlet var firstName: UITextField!
+    @IBOutlet weak var firstName: UITextField!
     
-    @IBOutlet var lastName: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    
+    @IBOutlet weak var confirmPassword: UITextField!
     
     static var fname = ""
     static var lname = ""
     static var uname = ""
     static var choppedEmail = ""
+
     
     @IBOutlet weak var passWordConf: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstName.delegate = self
+        lastName.delegate = self
+        emailAddress.delegate = self
+        passWord.delegate = self
+        confirmPassword.delegate = self
+        
 
         // Do any additional setup after loading the view.
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+           view.endEditing(true)
+           return true
     }
     
 
@@ -79,12 +93,14 @@ class Signup: UIViewController {
         
         Signup.fname = firstName.text!
         Signup.lname = lastName.text!
-        var lowerBound = String.Index.init(encodedOffset: 0)
-        var upperBound = String.Index.init(encodedOffset: emailAddress.text!.count - 9)
-        var urlString =  String(emailAddress.text![lowerBound..<upperBound])
-        
+        let lowerBound = String.Index(utf16Offset: 0, in: emailAddress.text!)
+        let upperBound = String.Index(utf16Offset: emailAddress.text!.count - 9, in: emailAddress.text!)
         Signup.choppedEmail = String(emailAddress.text![lowerBound..<upperBound])
         Signup.uname = Signup.fname + " " + Signup.lname
+        UserDefaults.standard.setValue(Signup.fname, forKey: "fname")
+        UserDefaults.standard.setValue(Signup.lname, forKey: "lname")
+        UserDefaults.standard.setValue(Signup.choppedEmail, forKey: "choppedEmail")
+        UserDefaults.standard.setValue(Signup.uname, forKey: "uname")
         
         var ref: DatabaseReference!
         ref = Database.database().reference()

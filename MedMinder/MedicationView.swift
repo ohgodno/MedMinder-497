@@ -93,7 +93,7 @@ class MedicationView: UITableViewController {
         
         
         vc?.receivedDate = stringDate
-        vc?.receivedInterval = String(MedicationView.medicationList[indexPath.row].WHENTOTAKE ?? "")
+        vc?.receivedInterval = String(MedicationView.medicationList[indexPath.row].WHENTOTAKE)
         self.navigationController?.pushViewController(vc!, animated: true)
     }
 

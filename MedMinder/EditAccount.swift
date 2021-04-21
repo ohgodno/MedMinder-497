@@ -55,9 +55,9 @@ static var successful=true
         }
         let user = Auth.auth().currentUser
         
-        var credential: AuthCredential = EmailAuthProvider.credential(withEmail: Login.curEmail, password: currentPassword.text!)
+        let credential: AuthCredential = EmailAuthProvider.credential(withEmail: Login.curEmail, password: currentPassword.text!)
         user?.reauthenticate(with: credential, completion:{ (authResult, error) in
-            if let error = error {
+            if error != nil {
                 self.errorIn(location: "UA")
                 print("Incorrect authentication")
                 return

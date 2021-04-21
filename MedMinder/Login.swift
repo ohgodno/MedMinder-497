@@ -11,6 +11,7 @@ import FirebaseDatabase
 
 
 class Login: UIViewController {
+    
     static var curEmail="default@poptarttechnology.edu"
     static var curPassword = "123"
     @IBOutlet weak var userNameField: UITextField!
@@ -22,11 +23,21 @@ class Login: UIViewController {
         super.viewDidLoad()
         userNameField.delegate = self
         passwordField.delegate = self
-        // Do any additional setup after loading the view.
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if Auth.auth().currentUser != nil {
+            print("user signed in already")
+            Signup.fname = UserDefaults.standard.string(forKey: "fname") ?? "error"
+            Signup.lname = UserDefaults.standard.string(forKey: "lname") ?? "error"
+            Signup.choppedEmail = UserDefaults.standard.string(forKey: "choppedEmail") ?? "error"
+            Signup.uname = UserDefaults.standard.string(forKey: "uname") ?? "error"
+            performSegue(withIdentifier: "loginSegue", sender: nil)
+        }
     }
     
     @IBAction func enterTapped(_ sender: Any) {
-        //textView.text = "User Name: \(userNameField.text!)\nPassword: \(passwordField.text!)"
         FirebaseAuth.Auth.auth().signIn(withEmail: userNameField.text!, password: passwordField.text!, completion: { [weak self] result, error in
             guard let strongSelf = self else{
                 return
@@ -48,10 +59,10 @@ class Login: UIViewController {
         Login.curEmail = userNameField.text!
         Login.curPassword = passwordField.text!
         
-        var lowerBound = String.Index.init(encodedOffset: 0)
-        var upperBound = String.Index.init(encodedOffset: userNameField.text!.count - 9)
-        var urlString =  String(userNameField.text![lowerBound..<upperBound])
+        UserDefaults.standard.set(userNameField.text!, forKey: "loggedUser")
         
+        let lowerBound = String.Index(utf16Offset: 0, in: userNameField.text!)
+        let upperBound = String.Index(utf16Offset: userNameField.text!.count - 9, in: userNameField.text!)
         Signup.choppedEmail = String(userNameField.text![lowerBound..<upperBound])
         
         

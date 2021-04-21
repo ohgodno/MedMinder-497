@@ -56,7 +56,7 @@ public class Medication: NSObject, NSCoding {
             "gray":"C48324",
             "black":"C48323", "":""]
         func getRXCUI() -> Int {
-            var urlString = "https://rxnav.nlm.nih.gov/REST/Prescribe/rxcui.json?name=" + name
+            let urlString = "https://rxnav.nlm.nih.gov/REST/Prescribe/rxcui.json?name=" + name
             var stuff = String()
             // Create URL
             // Can move this url rx search to when a medication is added and then store in database

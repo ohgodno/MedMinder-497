@@ -107,14 +107,13 @@ class ConflictsViewController: UIViewController, UITableViewDelegate, UITableVie
         var combinedMedicationRX = ""
         for medication in fullMedicationList {
             var anotherThing = Int()
-            if let testing = medication.RXCUI as? Int{
-                anotherThing = testing
-            }
+            let testing = medication.RXCUI
+            anotherThing = testing
             combinedMedicationRX += String(anotherThing) + "+"
             print(medication.NAME! + " : " + medication.DOSAGE! + " : " + String(anotherThing))
         }
-        let lowerBound = String.Index.init(encodedOffset: 0)
-        let upperBound = String.Index.init(encodedOffset: combinedMedicationRX.count - 1)
+        let lowerBound = String.Index(utf16Offset: 0, in: combinedMedicationRX)
+        let upperBound = String.Index(utf16Offset: combinedMedicationRX.count - 1, in: combinedMedicationRX)
         let urlString = "https://rxnav.nlm.nih.gov/REST/interaction/list.json?rxcuis=" + String(combinedMedicationRX[lowerBound..<upperBound])
         //let urlString = "https://rxnav.nlm.nih.gov/REST/interaction/list.json?rxcuis=207106+152923+656659"
         let apiResults = interactionAPI(urlString: urlString)
