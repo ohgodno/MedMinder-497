@@ -1076,13 +1076,8 @@ Enter your email address</string>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="50" id="Dtb-kG-dfe"/>
                                                             </constraints>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <textInputTraits key="textInputTraits"/>
-                                                            <userDefinedRuntimeAttributes>
-                                                                <userDefinedRuntimeAttribute type="number" keyPath="floatingLabelYPadding">
-                                                                    <real key="value" value="10"/>
-                                                                </userDefinedRuntimeAttribute>
-                                                            </userDefinedRuntimeAttributes>
                                                         </textField>
                                                         <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Entry" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ugd-iA-lXv" customClass="JVFloatLabeledTextField">
                                                             <rect key="frame" x="0.0" y="50" width="374" height="200"/>
@@ -1116,15 +1111,33 @@ Enter your email address</string>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Add New Log" id="cNi-3Z-Pfm">
-                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="cancel" id="d2m-ag-mJ7">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="FdO-Wf-pmL">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="gyX-Sp-rI9">
+                                <rect key="frame" x="20" y="13" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <segue destination="ClI-Vs-bi6" kind="unwind" identifier="cancelAddLog" unwindAction="addLogCancel:" id="nj5-Rt-2cB"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" style="plain" id="PTb-zp-Q1k">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="KuL-JY-XgV">
+                                <rect key="frame" x="302" y="13" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="saveLog:" destination="flv-31-lhf" eventType="touchUpInside" id="b1M-Qp-eCr"/>
+                                </connections>
+                            </button>
                             <connections>
-                                <segue destination="ClI-Vs-bi6" kind="unwind" unwindAction="addLogCancel:" id="Slb-lH-JS7"/>
+                                <segue destination="ClI-Vs-bi6" kind="unwind" identifier="saveValidLog" unwindAction="addLogSave:" id="ENU-m4-1iC"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="save" id="OFP-Jd-JQO"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="SaveBut" destination="OFP-Jd-JQO" id="dqg-RE-3Ii"/>
+                        <outlet property="CancelBut" destination="FdO-Wf-pmL" id="kQ7-kb-t8r"/>
+                        <outlet property="SaveBut" destination="PTb-zp-Q1k" id="slk-Gl-Xic"/>
                         <outlet property="TodaysDate" destination="AkM-6U-FBe" id="YPs-RS-Xq8"/>
                         <outlet property="TodaysEntry" destination="Ugd-iA-lXv" id="O5q-5t-szI"/>
                     </connections>
@@ -1308,7 +1321,7 @@ Enter your email address</string>
             <size key="intrinsicContentSize" width="211.5" height="81"/>
         </designable>
         <designable name="AkM-6U-FBe">
-            <size key="intrinsicContentSize" width="89" height="81"/>
+            <size key="intrinsicContentSize" width="69.5" height="51"/>
         </designable>
         <designable name="HDK-MI-fI8">
             <size key="intrinsicContentSize" width="207.5" height="71"/>
