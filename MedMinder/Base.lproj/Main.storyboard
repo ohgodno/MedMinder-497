@@ -482,7 +482,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="DJu-OD-Iqt" kind="show" id="l8f-Y7-fhC"/>
+                                            <action selector="medicationButton:" destination="6Ac-SN-jG8" eventType="touchUpInside" id="7yC-XS-jRP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0U-hq-P8G" customClass="FlatButton" customModule="SwiftyButton">
@@ -1411,10 +1411,9 @@ Enter your email address</string>
         </designable>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="oJv-tg-LfC"/>
-        <segue reference="09O-JC-X9k"/>
+        <segue reference="7dM-U2-J2w"/>
+        <segue reference="vvl-Cg-w0k"/>
         <segue reference="kfn-6f-s3Q"/>
-        <segue reference="l8f-Y7-fhC"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book" catalog="system" width="128" height="102"/>

@@ -19,6 +19,9 @@ class AccountView: UIViewController {
     }
     @IBOutlet var name: UILabel!
     
+    @IBAction func medicationButton(_ sender: Any) {
+        self.tabBarController?.selectedIndex = 0
+    }
     @IBAction func signOut(_ sender: Any) {
         
         let alertController = UIAlertController(title: "Confirmation", message: "Are you sure you want to sign out?", preferredStyle: UIAlertController.Style.alert )
